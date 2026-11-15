@@ -48,6 +48,7 @@ async def add_security_headers(
 app.include_router(api_v1_router, prefix="/api")
 
 
+@app.get("/health", summary="Liveness probe alias")
 @app.get("/healthz", summary="Liveness probe")
 async def healthz() -> dict[str, str]:
     return {"status": "ok"}

@@ -30,8 +30,8 @@ COPY pyproject.toml .
 RUN uv venv /opt/venv
 ENV PATH="/opt/venv/bin:$PATH"
 
-RUN uv pip install --no-cache -r <(uv pip compile pyproject.toml --no-deps) || \
-    uv pip install --no-cache .
+RUN uv pip compile pyproject.toml -o requirements.txt && \
+    uv pip install --no-cache -r requirements.txt
 
 # Pre-download spaCy English model into the virtual environment
 RUN /opt/venv/bin/python -m spacy download en_core_web_sm
@@ -73,9 +73,9 @@ COPY --chown=appuser:appgroup scripts /app/scripts
 # Switch to unprivileged non-root user
 USER appuser:appgroup
 
-# Healthcheck validating the FastAPI /health endpoint
+# Healthcheck validating the FastAPI /healthz endpoint
 HEALTHCHECK --interval=30s --timeout=5s --start-period=10s --retries=3 \
-    CMD python -c "import os, urllib.request; urllib.request.urlopen('http://localhost:' + str(os.environ.get('PORT', 8000)) + '/health')" || exit 1
+    CMD python -c "import os, urllib.request; urllib.request.urlopen('http://localhost:' + str(os.environ.get('PORT', 8000)) + '/healthz')" || exit 1
 
 EXPOSE 8000
 
