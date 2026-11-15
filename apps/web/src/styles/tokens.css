@@ -1,0 +1,167 @@
+@theme {
+  --color-paper: oklch(14% 0.016 260);
+  --color-paper-2: oklch(18% 0.018 260);
+  --color-paper-3: oklch(22% 0.020 260);
+
+  --color-ink: oklch(95% 0.005 260);
+  --color-ink-2: oklch(80% 0.012 260);
+  --color-muted: oklch(68% 0.014 260);
+
+  --color-rule: oklch(29% 0.018 260);
+  --color-rule-2: oklch(38% 0.022 260);
+
+  --color-accent: oklch(82% 0.15 80);
+  --color-accent-ink: oklch(18% 0.04 75);
+  --color-accent-soft: oklch(29% 0.05 80);
+  --color-focus: oklch(82% 0.15 80);
+
+  --color-violet: oklch(76% 0.14 285);
+  --color-violet-soft: oklch(28% 0.05 285);
+
+  --color-cool: oklch(77% 0.12 245);
+  --color-cool-soft: oklch(28% 0.04 245);
+
+  --color-ok: oklch(76% 0.15 150);
+  --color-ok-soft: oklch(25% 0.04 150);
+  --color-success: oklch(76% 0.15 150);
+
+  --color-bad: oklch(70% 0.17 25);
+  --color-bad-soft: oklch(25% 0.04 25);
+
+  --color-print-paper: oklch(99% 0.002 260);
+  --color-print-ink: oklch(18% 0.015 260);
+  --color-print-rule: oklch(85% 0.01 260);
+  --color-print-link: oklch(45% 0.18 250);
+  --color-error: oklch(70% 0.17 25);
+
+  --color-print-paper: oklch(99% 0.002 260);
+  --color-print-ink: oklch(18% 0.015 260);
+  --color-print-rule: oklch(85% 0.01 260);
+  --color-print-link: oklch(45% 0.18 250);
+
+  /* Legacy utility aliases */
+  --color-ink-950: oklch(14% 0.016 260);
+  --color-ink-900: oklch(18% 0.018 260);
+  --color-ink-800: oklch(22% 0.020 260);
+  --color-ink-line: oklch(29% 0.018 260);
+
+  --color-text-hi: oklch(95% 0.005 260);
+  --color-text-mid: oklch(80% 0.012 260);
+  --color-text-lo: oklch(68% 0.014 260);
+
+  --color-violet-600: oklch(65% 0.18 285);
+  --color-violet-500: oklch(76% 0.14 285);
+  --color-violet-400: oklch(82% 0.11 285);
+  --color-violet-300: oklch(88% 0.08 285);
+  --color-blue-500: oklch(77% 0.12 245);
+  --color-blue-400: oklch(82% 0.10 245);
+  --color-blue-300: oklch(87% 0.07 245);
+  --color-amber-400: oklch(82% 0.15 80);
+
+  --radius-card: 16px;
+  --radius-control: 8px;
+  --radius-panel: 16px;
+  --radius-dropzone: 16px;
+  --radius-pill: 8px;
+
+  --text-xs: 0.8125rem;
+  --text-sm: 0.875rem;
+
+  --font-display: "Host Grotesk", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-body: "Host Grotesk", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-outlier: "Atkinson Hyperlegible Mono", ui-monospace, monospace;
+
+  --tracking-display: -0.03em;
+  --display-weight: 500;
+}
+
+:root {
+  color-scheme: dark;
+  --space-3xs: 2px;
+  --space-2xs: 4px;
+  --space-xs: 8px;
+  --space-sm: 12px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 40px;
+  --space-2xl: 64px;
+  --space-3xl: 96px;
+  --space-4xl: 144px;
+
+  --text-xs: 0.8125rem;
+  --text-sm: 0.875rem;
+  --text-md: 1rem;
+  --text-lg: 1.25rem;
+  --text-xl: 1.5625rem;
+  --text-2xl: 1.953rem;
+  --text-3xl: 2.441rem;
+
+  --text-display-s: clamp(2.25rem, 4vw + 0.5rem, 3.75rem);
+  --text-display: clamp(2.75rem, 5vw + 1rem, 5.25rem);
+  --text-section: clamp(2rem, 2.5vw + 1rem, 3.5rem);
+  --text-title: clamp(1.25rem, 0.75vw + 0.875rem, 1.625rem);
+  --text-lead: clamp(1.125rem, 0.35vw + 1rem, 1.375rem);
+
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in: cubic-bezier(0.7, 0, 0.84, 0);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-micro: 120ms;
+  --dur-short: 220ms;
+  --dur-long: 420ms;
+
+  --color-error: oklch(70% 0.17 25);
+  --color-success: oklch(76% 0.15 150);
+
+  --container: 1440px;
+  --gutter: 64px;
+  --gap-columns: 32px;
+  --section-gap-s: 120px;
+  --section-gap: 144px;
+  --section-gap-l: 176px;
+
+  --z-base: 1;
+  --z-raised: 10;
+  --z-dropdown: 100;
+  --z-sticky: 200;
+  --z-sticky-nav: 300;
+  --z-modal: 400;
+  --z-toast: 500;
+  --z-tooltip: 600;
+
+  --color-paper: oklch(14% 0.016 260);
+  --color-paper-2: oklch(18% 0.018 260);
+  --color-paper-3: oklch(22% 0.020 260);
+  --color-ink: oklch(95% 0.005 260);
+  --color-ink-2: oklch(80% 0.012 260);
+  --color-muted: oklch(68% 0.014 260);
+  --color-rule: oklch(29% 0.018 260);
+  --color-rule-2: oklch(38% 0.022 260);
+  --color-accent: oklch(82% 0.15 80);
+  --color-accent-ink: oklch(18% 0.04 75);
+  --color-accent-soft: oklch(29% 0.05 80);
+  --color-focus: oklch(82% 0.15 80);
+  --color-cool: oklch(77% 0.12 245);
+  --color-cool-soft: oklch(28% 0.04 245);
+  --color-violet: oklch(76% 0.14 285);
+  --color-violet-soft: oklch(28% 0.05 285);
+  --color-ok: oklch(76% 0.15 150);
+  --color-ok-soft: oklch(25% 0.04 150);
+  --color-bad: oklch(70% 0.17 25);
+  --color-bad-soft: oklch(25% 0.04 25);
+
+  --color-print-paper: oklch(99% 0.002 260);
+  --color-print-ink: oklch(18% 0.015 260);
+  --color-print-rule: oklch(85% 0.01 260);
+  --color-print-link: oklch(45% 0.18 250);
+
+  --font-display: "Host Grotesk", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-body: var(--font-display);
+  --font-outlier: "Atkinson Hyperlegible Mono", ui-monospace, monospace;
+
+  --radius-card: 10px;
+  --radius-pill: 6px;
+  --rule-hair: 1px;
+  --shadow-card: none;
+  --tracking-display: -0.03em;
+  --display-weight: 500;
+}

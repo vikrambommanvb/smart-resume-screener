@@ -1,0 +1,54 @@
+@media print {
+
+  /* Set clean light background and dark text for print / PDF export */
+  body,
+  html {
+    background-color: var(--color-print-paper) !important;
+    color: var(--color-print-ink) !important;
+  }
+
+  header nav,
+  button,
+  .no-print {
+    display: none !important;
+  }
+
+  /* Reset dark container surfaces to crisp light borders and backgrounds */
+  div[class*="bg-ink-"],
+  div[class*="bg-ink-950"],
+  div[class*="bg-ink-900"],
+  div[class*="bg-ink-800"],
+  div[class*="bg-paper"] {
+    background-color: var(--color-print-paper) !important;
+    border-color: var(--color-print-rule) !important;
+    color: var(--color-print-ink) !important;
+    box-shadow: none !important;
+  }
+
+  p,
+  span,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: var(--color-print-ink) !important;
+  }
+
+  /* Ensure verified links are readable */
+  a {
+    text-decoration: underline !important;
+    color: var(--color-print-link) !important;
+  }
+
+  /* Page break rules */
+  .card,
+  div[class*="rounded-2xl"],
+  div[class*="rounded-xl"],
+  div[class*="rounded-[12px]"],
+  div[class*="rounded-[10px]"] {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+}

@@ -1,0 +1,6172 @@
+[
+  {
+    "id": "python",
+    "name": "Python",
+    "category": "languages",
+    "aliases": [
+      "python",
+      "python3",
+      "python2",
+      "py"
+    ],
+    "related": [
+      {
+        "id": "fastapi",
+        "weight": 0.8
+      },
+      {
+        "id": "django",
+        "weight": 0.8
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "javascript",
+    "name": "JavaScript",
+    "category": "languages",
+    "aliases": [
+      "javascript",
+      "js",
+      "ecmascript",
+      "es6",
+      "es2020",
+      "es2022"
+    ],
+    "related": [
+      {
+        "id": "typescript",
+        "weight": 0.9
+      },
+      {
+        "id": "react",
+        "weight": 0.8
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "typescript",
+    "name": "TypeScript",
+    "category": "languages",
+    "aliases": [
+      "typescript",
+      "ts"
+    ],
+    "related": [
+      {
+        "id": "javascript",
+        "weight": 0.9
+      },
+      {
+        "id": "react",
+        "weight": 0.8
+      }
+    ],
+    "implies": [
+      {
+        "id": "javascript",
+        "weight": 0.95
+      }
+    ]
+  },
+  {
+    "id": "java",
+    "name": "Java",
+    "category": "languages",
+    "aliases": [
+      "java",
+      "java8",
+      "java11",
+      "java17",
+      "java21",
+      "core java"
+    ],
+    "related": [
+      {
+        "id": "spring_boot",
+        "weight": 0.85
+      },
+      {
+        "id": "kotlin",
+        "weight": 0.7
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "csharp",
+    "name": "C#",
+    "category": "languages",
+    "aliases": [
+      "c#",
+      "csharp",
+      "c-sharp",
+      "c sharp"
+    ],
+    "related": [
+      {
+        "id": "dotnet",
+        "weight": 0.9
+      },
+      {
+        "id": "aspnet",
+        "weight": 0.85
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "cpp",
+    "name": "C++",
+    "category": "languages",
+    "aliases": [
+      "c++",
+      "cpp",
+      "cplusplus"
+    ],
+    "related": [
+      {
+        "id": "c",
+        "weight": 0.8
+      },
+      {
+        "id": "rust",
+        "weight": 0.6
+      }
+    ],
+    "implies": [
+      {
+        "id": "c",
+        "weight": 0.8
+      }
+    ]
+  },
+  {
+    "id": "c",
+    "name": "C",
+    "category": "languages",
+    "aliases": [
+      "c programming",
+      "c language",
+      "ansi c"
+    ],
+    "requires_context": true,
+    "context_words": [
+      "pointers",
+      "kernel",
+      "embedded",
+      "systems",
+      "memory",
+      "compiler"
+    ],
+    "related": [
+      {
+        "id": "cpp",
+        "weight": 0.8
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "golang",
+    "name": "Go",
+    "category": "languages",
+    "aliases": [
+      "golang",
+      "go lang",
+      "go language"
+    ],
+    "requires_context": true,
+    "context_words": [
+      "concurrency",
+      "goroutine",
+      "docker",
+      "kubernetes",
+      "microservices",
+      "channel"
+    ],
+    "related": [
+      {
+        "id": "docker",
+        "weight": 0.7
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "rust",
+    "name": "Rust",
+    "category": "languages",
+    "aliases": [
+      "rust-lang",
+      "rust language",
+      "rust programming"
+    ],
+    "requires_context": true,
+    "context_words": [
+      "cargo",
+      "borrow",
+      "ownership",
+      "systems",
+      "memory safety",
+      "concurrency"
+    ],
+    "related": [
+      {
+        "id": "cpp",
+        "weight": 0.6
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "php",
+    "name": "PHP",
+    "category": "languages",
+    "aliases": [
+      "php",
+      "php7",
+      "php8"
+    ],
+    "related": [
+      {
+        "id": "laravel",
+        "weight": 0.85
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "ruby",
+    "name": "Ruby",
+    "category": "languages",
+    "aliases": [
+      "ruby",
+      "ruby language"
+    ],
+    "related": [
+      {
+        "id": "rails",
+        "weight": 0.9
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "swift",
+    "name": "Swift",
+    "category": "languages",
+    "aliases": [
+      "swift",
+      "swiftui"
+    ],
+    "related": [
+      {
+        "id": "ios",
+        "weight": 0.9
+      }
+    ],
+    "implies": [
+      {
+        "id": "ios",
+        "weight": 0.8
+      }
+    ]
+  },
+  {
+    "id": "kotlin",
+    "name": "Kotlin",
+    "category": "languages",
+    "aliases": [
+      "kotlin",
+      "kotlin multiplatform"
+    ],
+    "related": [
+      {
+        "id": "android",
+        "weight": 0.9
+      }
+    ],
+    "implies": [
+      {
+        "id": "java",
+        "weight": 0.7
+      }
+    ]
+  },
+  {
+    "id": "dart",
+    "name": "Dart",
+    "category": "languages",
+    "aliases": [
+      "dart",
+      "dartlang"
+    ],
+    "related": [
+      {
+        "id": "flutter",
+        "weight": 0.95
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "scala",
+    "name": "Scala",
+    "category": "languages",
+    "aliases": [
+      "scala"
+    ],
+    "related": [
+      {
+        "id": "spark",
+        "weight": 0.85
+      }
+    ],
+    "implies": [
+      {
+        "id": "java",
+        "weight": 0.6
+      }
+    ]
+  },
+  {
+    "id": "r_lang",
+    "name": "R",
+    "category": "languages",
+    "aliases": [
+      "r programming",
+      "r language",
+      "r-project"
+    ],
+    "requires_context": true,
+    "context_words": [
+      "statistics",
+      "data",
+      "ggplot",
+      "biostatistics",
+      "analysis",
+      "cran"
+    ],
+    "related": [
+      {
+        "id": "python",
+        "weight": 0.6
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "sql",
+    "name": "SQL",
+    "category": "languages",
+    "aliases": [
+      "sql",
+      "structured query language",
+      "ansi sql"
+    ],
+    "related": [
+      {
+        "id": "postgresql",
+        "weight": 0.85
+      },
+      {
+        "id": "mysql",
+        "weight": 0.85
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "html",
+    "name": "HTML5",
+    "category": "languages",
+    "aliases": [
+      "html",
+      "html5",
+      "semantic html"
+    ],
+    "related": [
+      {
+        "id": "css",
+        "weight": 0.9
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "css",
+    "name": "CSS3",
+    "category": "languages",
+    "aliases": [
+      "css",
+      "css3"
+    ],
+    "related": [
+      {
+        "id": "html",
+        "weight": 0.9
+      },
+      {
+        "id": "tailwind_css",
+        "weight": 0.8
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "bash",
+    "name": "Bash",
+    "category": "languages",
+    "aliases": [
+      "bash",
+      "shell scripting",
+      "sh",
+      "zsh",
+      "shell script",
+      "shell scripts"
+    ],
+    "related": [
+      {
+        "id": "linux",
+        "weight": 0.9
+      }
+    ],
+    "implies": [
+      {
+        "id": "linux",
+        "weight": 0.7
+      }
+    ]
+  },
+  {
+    "id": "powershell",
+    "name": "PowerShell",
+    "category": "languages",
+    "aliases": [
+      "powershell",
+      "pwsh"
+    ],
+    "related": [
+      {
+        "id": "azure",
+        "weight": 0.7
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "perl",
+    "name": "Perl",
+    "category": "languages",
+    "aliases": [
+      "perl"
+    ],
+    "related": [
+      {
+        "id": "bash",
+        "weight": 0.6
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "lua",
+    "name": "Lua",
+    "category": "languages",
+    "aliases": [
+      "lua"
+    ],
+    "related": [
+      {
+        "id": "cpp",
+        "weight": 0.5
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "elixir",
+    "name": "Elixir",
+    "category": "languages",
+    "aliases": [
+      "elixir"
+    ],
+    "related": [
+      {
+        "id": "erlang",
+        "weight": 0.85
+      },
+      {
+        "id": "phoenix",
+        "weight": 0.9
+      }
+    ],
+    "implies": [
+      {
+        "id": "erlang",
+        "weight": 0.8
+      }
+    ]
+  },
+  {
+    "id": "erlang",
+    "name": "Erlang",
+    "category": "languages",
+    "aliases": [
+      "erlang"
+    ],
+    "related": [
+      {
+        "id": "elixir",
+        "weight": 0.85
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "clojure",
+    "name": "Clojure",
+    "category": "languages",
+    "aliases": [
+      "clojure"
+    ],
+    "related": [
+      {
+        "id": "java",
+        "weight": 0.7
+      }
+    ],
+    "implies": [
+      {
+        "id": "java",
+        "weight": 0.6
+      }
+    ]
+  },
+  {
+    "id": "haskell",
+    "name": "Haskell",
+    "category": "languages",
+    "aliases": [
+      "haskell"
+    ],
+    "related": [
+      {
+        "id": "scala",
+        "weight": 0.6
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "matlab",
+    "name": "MATLAB",
+    "category": "languages",
+    "aliases": [
+      "matlab"
+    ],
+    "related": [
+      {
+        "id": "python",
+        "weight": 0.6
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "julia",
+    "name": "Julia",
+    "category": "languages",
+    "aliases": [
+      "julia",
+      "julialang"
+    ],
+    "related": [
+      {
+        "id": "python",
+        "weight": 0.7
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "solidity",
+    "name": "Solidity",
+    "category": "languages",
+    "aliases": [
+      "solidity"
+    ],
+    "related": [
+      {
+        "id": "cryptography",
+        "weight": 0.85
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "groovy",
+    "name": "Groovy",
+    "category": "languages",
+    "aliases": [
+      "groovy",
+      "apache groovy"
+    ],
+    "related": [
+      {
+        "id": "jenkins",
+        "weight": 0.8
+      }
+    ],
+    "implies": [
+      {
+        "id": "java",
+        "weight": 0.6
+      }
+    ]
+  },
+  {
+    "id": "vba",
+    "name": "VBA",
+    "category": "languages",
+    "aliases": [
+      "vba",
+      "visual basic for applications"
+    ],
+    "related": [
+      {
+        "id": "excel",
+        "weight": 0.9
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "assembly",
+    "name": "Assembly",
+    "category": "languages",
+    "aliases": [
+      "assembly",
+      "assembly language",
+      "asm",
+      "x86",
+      "arm asm"
+    ],
+    "related": [
+      {
+        "id": "c",
+        "weight": 0.8
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "objective_c",
+    "name": "Objective-C",
+    "category": "languages",
+    "aliases": [
+      "objective-c",
+      "obj-c",
+      "objective c"
+    ],
+    "related": [
+      {
+        "id": "swift",
+        "weight": 0.7
+      }
+    ],
+    "implies": [
+      {
+        "id": "ios",
+        "weight": 0.8
+      }
+    ]
+  },
+  {
+    "id": "sas",
+    "name": "SAS",
+    "category": "languages",
+    "aliases": [
+      "sas programming",
+      "sas software"
+    ],
+    "requires_context": true,
+    "context_words": [
+      "analytics",
+      "clinical",
+      "statistics",
+      "data",
+      "macros"
+    ],
+    "related": [
+      {
+        "id": "sql",
+        "weight": 0.7
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "react",
+    "name": "React",
+    "category": "frameworks",
+    "aliases": [
+      "react",
+      "react.js",
+      "reactjs"
+    ],
+    "related": [
+      {
+        "id": "javascript",
+        "weight": 0.9
+      },
+      {
+        "id": "nextjs",
+        "weight": 0.85
+      }
+    ],
+    "implies": [
+      {
+        "id": "javascript",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "nextjs",
+    "name": "Next.js",
+    "category": "frameworks",
+    "aliases": [
+      "next.js",
+      "nextjs",
+      "next js"
+    ],
+    "related": [
+      {
+        "id": "react",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "react",
+        "weight": 0.95
+      },
+      {
+        "id": "javascript",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "vue",
+    "name": "Vue.js",
+    "category": "frameworks",
+    "aliases": [
+      "vue",
+      "vue.js",
+      "vuejs",
+      "vue3"
+    ],
+    "related": [
+      {
+        "id": "nuxtjs",
+        "weight": 0.85
+      }
+    ],
+    "implies": [
+      {
+        "id": "javascript",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "nuxtjs",
+    "name": "Nuxt.js",
+    "category": "frameworks",
+    "aliases": [
+      "nuxt",
+      "nuxt.js",
+      "nuxtjs"
+    ],
+    "related": [
+      {
+        "id": "vue",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "vue",
+        "weight": 0.95
+      }
+    ]
+  },
+  {
+    "id": "angular",
+    "name": "Angular",
+    "category": "frameworks",
+    "aliases": [
+      "angular",
+      "angularjs",
+      "angular 2+"
+    ],
+    "related": [
+      {
+        "id": "typescript",
+        "weight": 0.9
+      }
+    ],
+    "implies": [
+      {
+        "id": "typescript",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "svelte",
+    "name": "Svelte",
+    "category": "frameworks",
+    "aliases": [
+      "svelte"
+    ],
+    "related": [
+      {
+        "id": "sveltekit",
+        "weight": 0.9
+      }
+    ],
+    "implies": [
+      {
+        "id": "javascript",
+        "weight": 0.85
+      }
+    ]
+  },
+  {
+    "id": "sveltekit",
+    "name": "SvelteKit",
+    "category": "frameworks",
+    "aliases": [
+      "sveltekit",
+      "svelte-kit"
+    ],
+    "related": [
+      {
+        "id": "svelte",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "svelte",
+        "weight": 0.95
+      }
+    ]
+  },
+  {
+    "id": "fastapi",
+    "name": "FastAPI",
+    "category": "frameworks",
+    "aliases": [
+      "fastapi",
+      "fast api"
+    ],
+    "related": [
+      {
+        "id": "python",
+        "weight": 0.95
+      },
+      {
+        "id": "pydantic",
+        "weight": 0.85
+      }
+    ],
+    "implies": [
+      {
+        "id": "python",
+        "weight": 0.95
+      }
+    ]
+  },
+  {
+    "id": "django",
+    "name": "Django",
+    "category": "frameworks",
+    "aliases": [
+      "django",
+      "django rest framework",
+      "drf"
+    ],
+    "related": [
+      {
+        "id": "python",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "python",
+        "weight": 0.95
+      }
+    ]
+  },
+  {
+    "id": "flask",
+    "name": "Flask",
+    "category": "frameworks",
+    "aliases": [
+      "flask"
+    ],
+    "related": [
+      {
+        "id": "python",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "python",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "nodejs",
+    "name": "Node.js",
+    "category": "frameworks",
+    "aliases": [
+      "node.js",
+      "nodejs",
+      "node js"
+    ],
+    "related": [
+      {
+        "id": "javascript",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "javascript",
+        "weight": 0.95
+      }
+    ]
+  },
+  {
+    "id": "express",
+    "name": "Express.js",
+    "category": "frameworks",
+    "aliases": [
+      "express",
+      "express.js",
+      "expressjs"
+    ],
+    "related": [
+      {
+        "id": "nodejs",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "nodejs",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "nestjs",
+    "name": "NestJS",
+    "category": "frameworks",
+    "aliases": [
+      "nestjs",
+      "nest.js"
+    ],
+    "related": [
+      {
+        "id": "typescript",
+        "weight": 0.9
+      },
+      {
+        "id": "nodejs",
+        "weight": 0.9
+      }
+    ],
+    "implies": [
+      {
+        "id": "typescript",
+        "weight": 0.9
+      },
+      {
+        "id": "nodejs",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "spring_boot",
+    "name": "Spring Boot",
+    "category": "frameworks",
+    "aliases": [
+      "spring boot",
+      "springboot",
+      "spring framework",
+      "spring"
+    ],
+    "related": [
+      {
+        "id": "java",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "java",
+        "weight": 0.95
+      }
+    ]
+  },
+  {
+    "id": "aspnet",
+    "name": "ASP.NET Core",
+    "category": "frameworks",
+    "aliases": [
+      "asp.net",
+      "asp.net core",
+      "aspnet",
+      "aspnetcore"
+    ],
+    "related": [
+      {
+        "id": "csharp",
+        "weight": 0.95
+      },
+      {
+        "id": "dotnet",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "csharp",
+        "weight": 0.95
+      }
+    ]
+  },
+  {
+    "id": "dotnet",
+    "name": ".NET Core",
+    "category": "frameworks",
+    "aliases": [
+      ".net",
+      ".net core",
+      "dotnet",
+      "dotnet core"
+    ],
+    "related": [
+      {
+        "id": "csharp",
+        "weight": 0.9
+      }
+    ],
+    "implies": [
+      {
+        "id": "csharp",
+        "weight": 0.85
+      }
+    ]
+  },
+  {
+    "id": "laravel",
+    "name": "Laravel",
+    "category": "frameworks",
+    "aliases": [
+      "laravel"
+    ],
+    "related": [
+      {
+        "id": "php",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "php",
+        "weight": 0.95
+      }
+    ]
+  },
+  {
+    "id": "symfony",
+    "name": "Symfony",
+    "category": "frameworks",
+    "aliases": [
+      "symfony"
+    ],
+    "related": [
+      {
+        "id": "php",
+        "weight": 0.9
+      }
+    ],
+    "implies": [
+      {
+        "id": "php",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "rails",
+    "name": "Ruby on Rails",
+    "category": "frameworks",
+    "aliases": [
+      "rails",
+      "ruby on rails"
+    ],
+    "related": [
+      {
+        "id": "ruby",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "ruby",
+        "weight": 0.95
+      }
+    ]
+  },
+  {
+    "id": "phoenix",
+    "name": "Phoenix",
+    "category": "frameworks",
+    "aliases": [
+      "phoenix framework",
+      "phoenix"
+    ],
+    "related": [
+      {
+        "id": "elixir",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "elixir",
+        "weight": 0.95
+      }
+    ]
+  },
+  {
+    "id": "gin",
+    "name": "Gin",
+    "category": "frameworks",
+    "aliases": [
+      "gin-gonic",
+      "gin web framework"
+    ],
+    "related": [
+      {
+        "id": "golang",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "golang",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "fiber",
+    "name": "Fiber",
+    "category": "frameworks",
+    "aliases": [
+      "gofiber",
+      "fiber framework"
+    ],
+    "related": [
+      {
+        "id": "golang",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "golang",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "actix",
+    "name": "Actix Web",
+    "category": "frameworks",
+    "aliases": [
+      "actix",
+      "actix-web"
+    ],
+    "related": [
+      {
+        "id": "rust",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "rust",
+        "weight": 0.95
+      }
+    ]
+  },
+  {
+    "id": "axum",
+    "name": "Axum",
+    "category": "frameworks",
+    "aliases": [
+      "axum"
+    ],
+    "related": [
+      {
+        "id": "rust",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "rust",
+        "weight": 0.95
+      }
+    ]
+  },
+  {
+    "id": "flutter",
+    "name": "Flutter",
+    "category": "frameworks",
+    "aliases": [
+      "flutter"
+    ],
+    "related": [
+      {
+        "id": "dart",
+        "weight": 0.95
+      },
+      {
+        "id": "mobile_dev",
+        "weight": 0.85
+      }
+    ],
+    "implies": [
+      {
+        "id": "dart",
+        "weight": 0.95
+      }
+    ]
+  },
+  {
+    "id": "react_native",
+    "name": "React Native",
+    "category": "frameworks",
+    "aliases": [
+      "react native",
+      "react-native"
+    ],
+    "related": [
+      {
+        "id": "react",
+        "weight": 0.9
+      },
+      {
+        "id": "mobile_dev",
+        "weight": 0.85
+      }
+    ],
+    "implies": [
+      {
+        "id": "react",
+        "weight": 0.9
+      },
+      {
+        "id": "javascript",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "ios",
+    "name": "iOS Development",
+    "category": "frameworks",
+    "aliases": [
+      "ios",
+      "ios development",
+      "uikit",
+      "cocoa touch"
+    ],
+    "related": [
+      {
+        "id": "swift",
+        "weight": 0.9
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "android",
+    "name": "Android Development",
+    "category": "frameworks",
+    "aliases": [
+      "android",
+      "android development",
+      "android sdk",
+      "jetpack compose"
+    ],
+    "related": [
+      {
+        "id": "kotlin",
+        "weight": 0.9
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "pytorch",
+    "name": "PyTorch",
+    "category": "frameworks",
+    "aliases": [
+      "pytorch",
+      "torch"
+    ],
+    "related": [
+      {
+        "id": "deep_learning",
+        "weight": 0.9
+      },
+      {
+        "id": "python",
+        "weight": 0.9
+      }
+    ],
+    "implies": [
+      {
+        "id": "python",
+        "weight": 0.9
+      },
+      {
+        "id": "deep_learning",
+        "weight": 0.85
+      }
+    ]
+  },
+  {
+    "id": "tensorflow",
+    "name": "TensorFlow",
+    "category": "frameworks",
+    "aliases": [
+      "tensorflow",
+      "tf.keras",
+      "tensorflow 2"
+    ],
+    "related": [
+      {
+        "id": "keras",
+        "weight": 0.9
+      },
+      {
+        "id": "deep_learning",
+        "weight": 0.9
+      }
+    ],
+    "implies": [
+      {
+        "id": "python",
+        "weight": 0.9
+      },
+      {
+        "id": "deep_learning",
+        "weight": 0.85
+      }
+    ]
+  },
+  {
+    "id": "keras",
+    "name": "Keras",
+    "category": "frameworks",
+    "aliases": [
+      "keras"
+    ],
+    "related": [
+      {
+        "id": "tensorflow",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "tensorflow",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "scikit_learn",
+    "name": "Scikit-Learn",
+    "category": "frameworks",
+    "aliases": [
+      "scikit-learn",
+      "sklearn"
+    ],
+    "related": [
+      {
+        "id": "machine_learning",
+        "weight": 0.9
+      },
+      {
+        "id": "python",
+        "weight": 0.9
+      }
+    ],
+    "implies": [
+      {
+        "id": "python",
+        "weight": 0.9
+      },
+      {
+        "id": "machine_learning",
+        "weight": 0.85
+      }
+    ]
+  },
+  {
+    "id": "spark",
+    "name": "Apache Spark",
+    "category": "frameworks",
+    "aliases": [
+      "spark",
+      "apache spark",
+      "pyspark"
+    ],
+    "related": [
+      {
+        "id": "data_engineering",
+        "weight": 0.9
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "hadoop",
+    "name": "Apache Hadoop",
+    "category": "frameworks",
+    "aliases": [
+      "hadoop",
+      "apache hadoop",
+      "mapreduce"
+    ],
+    "related": [
+      {
+        "id": "spark",
+        "weight": 0.7
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "electron",
+    "name": "Electron",
+    "category": "frameworks",
+    "aliases": [
+      "electron",
+      "electron.js"
+    ],
+    "related": [
+      {
+        "id": "javascript",
+        "weight": 0.85
+      }
+    ],
+    "implies": [
+      {
+        "id": "javascript",
+        "weight": 0.85
+      }
+    ]
+  },
+  {
+    "id": "tauri",
+    "name": "Tauri",
+    "category": "frameworks",
+    "aliases": [
+      "tauri"
+    ],
+    "related": [
+      {
+        "id": "rust",
+        "weight": 0.8
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "fastify",
+    "name": "Fastify",
+    "category": "frameworks",
+    "aliases": [
+      "fastify"
+    ],
+    "related": [
+      {
+        "id": "nodejs",
+        "weight": 0.9
+      }
+    ],
+    "implies": [
+      {
+        "id": "nodejs",
+        "weight": 0.85
+      }
+    ]
+  },
+  {
+    "id": "koa",
+    "name": "Koa.js",
+    "category": "frameworks",
+    "aliases": [
+      "koa",
+      "koa.js"
+    ],
+    "related": [
+      {
+        "id": "nodejs",
+        "weight": 0.9
+      }
+    ],
+    "implies": [
+      {
+        "id": "nodejs",
+        "weight": 0.85
+      }
+    ]
+  },
+  {
+    "id": "astro",
+    "name": "Astro",
+    "category": "frameworks",
+    "aliases": [
+      "astro",
+      "astro.build"
+    ],
+    "related": [
+      {
+        "id": "javascript",
+        "weight": 0.85
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "remix",
+    "name": "Remix",
+    "category": "frameworks",
+    "aliases": [
+      "remix",
+      "remix.run"
+    ],
+    "related": [
+      {
+        "id": "react",
+        "weight": 0.9
+      }
+    ],
+    "implies": [
+      {
+        "id": "react",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "gatsby",
+    "name": "Gatsby",
+    "category": "frameworks",
+    "aliases": [
+      "gatsby",
+      "gatsbyjs"
+    ],
+    "related": [
+      {
+        "id": "react",
+        "weight": 0.9
+      }
+    ],
+    "implies": [
+      {
+        "id": "react",
+        "weight": 0.85
+      }
+    ]
+  },
+  {
+    "id": "unity",
+    "name": "Unity",
+    "category": "frameworks",
+    "aliases": [
+      "unity",
+      "unity3d",
+      "unity engine"
+    ],
+    "related": [
+      {
+        "id": "csharp",
+        "weight": 0.9
+      }
+    ],
+    "implies": [
+      {
+        "id": "csharp",
+        "weight": 0.85
+      }
+    ]
+  },
+  {
+    "id": "unreal_engine",
+    "name": "Unreal Engine",
+    "category": "frameworks",
+    "aliases": [
+      "unreal engine",
+      "ue4",
+      "ue5"
+    ],
+    "related": [
+      {
+        "id": "cpp",
+        "weight": 0.9
+      }
+    ],
+    "implies": [
+      {
+        "id": "cpp",
+        "weight": 0.85
+      }
+    ]
+  },
+  {
+    "id": "langchain",
+    "name": "LangChain",
+    "category": "frameworks",
+    "aliases": [
+      "langchain"
+    ],
+    "related": [
+      {
+        "id": "llm",
+        "weight": 0.9
+      },
+      {
+        "id": "rag",
+        "weight": 0.85
+      }
+    ],
+    "implies": [
+      {
+        "id": "python",
+        "weight": 0.8
+      }
+    ]
+  },
+  {
+    "id": "llamaindex",
+    "name": "LlamaIndex",
+    "category": "frameworks",
+    "aliases": [
+      "llamaindex",
+      "llama-index"
+    ],
+    "related": [
+      {
+        "id": "rag",
+        "weight": 0.9
+      },
+      {
+        "id": "llm",
+        "weight": 0.9
+      }
+    ],
+    "implies": [
+      {
+        "id": "python",
+        "weight": 0.8
+      }
+    ]
+  },
+  {
+    "id": "huggingface",
+    "name": "Hugging Face",
+    "category": "frameworks",
+    "aliases": [
+      "hugging face",
+      "huggingface",
+      "transformers library"
+    ],
+    "related": [
+      {
+        "id": "deep_learning",
+        "weight": 0.9
+      }
+    ],
+    "implies": [
+      {
+        "id": "python",
+        "weight": 0.8
+      }
+    ]
+  },
+  {
+    "id": "pandas",
+    "name": "Pandas",
+    "category": "libraries",
+    "aliases": [
+      "pandas"
+    ],
+    "related": [
+      {
+        "id": "python",
+        "weight": 0.9
+      },
+      {
+        "id": "numpy",
+        "weight": 0.85
+      }
+    ],
+    "implies": [
+      {
+        "id": "python",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "numpy",
+    "name": "NumPy",
+    "category": "libraries",
+    "aliases": [
+      "numpy"
+    ],
+    "related": [
+      {
+        "id": "python",
+        "weight": 0.9
+      },
+      {
+        "id": "pandas",
+        "weight": 0.85
+      }
+    ],
+    "implies": [
+      {
+        "id": "python",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "scipy",
+    "name": "SciPy",
+    "category": "libraries",
+    "aliases": [
+      "scipy"
+    ],
+    "related": [
+      {
+        "id": "numpy",
+        "weight": 0.9
+      }
+    ],
+    "implies": [
+      {
+        "id": "python",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "matplotlib",
+    "name": "Matplotlib",
+    "category": "libraries",
+    "aliases": [
+      "matplotlib"
+    ],
+    "related": [
+      {
+        "id": "python",
+        "weight": 0.9
+      },
+      {
+        "id": "seaborn",
+        "weight": 0.85
+      }
+    ],
+    "implies": [
+      {
+        "id": "python",
+        "weight": 0.85
+      }
+    ]
+  },
+  {
+    "id": "seaborn",
+    "name": "Seaborn",
+    "category": "libraries",
+    "aliases": [
+      "seaborn"
+    ],
+    "related": [
+      {
+        "id": "matplotlib",
+        "weight": 0.9
+      }
+    ],
+    "implies": [
+      {
+        "id": "python",
+        "weight": 0.85
+      }
+    ]
+  },
+  {
+    "id": "polars",
+    "name": "Polars",
+    "category": "libraries",
+    "aliases": [
+      "polars"
+    ],
+    "related": [
+      {
+        "id": "pandas",
+        "weight": 0.8
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "redux",
+    "name": "Redux",
+    "category": "libraries",
+    "aliases": [
+      "redux",
+      "redux toolkit",
+      "rtk"
+    ],
+    "related": [
+      {
+        "id": "react",
+        "weight": 0.9
+      }
+    ],
+    "implies": [
+      {
+        "id": "javascript",
+        "weight": 0.85
+      }
+    ]
+  },
+  {
+    "id": "zustand",
+    "name": "Zustand",
+    "category": "libraries",
+    "aliases": [
+      "zustand"
+    ],
+    "related": [
+      {
+        "id": "react",
+        "weight": 0.9
+      }
+    ],
+    "implies": [
+      {
+        "id": "react",
+        "weight": 0.8
+      }
+    ]
+  },
+  {
+    "id": "tanstack_query",
+    "name": "React Query / TanStack Query",
+    "category": "libraries",
+    "aliases": [
+      "react query",
+      "tanstack query"
+    ],
+    "related": [
+      {
+        "id": "react",
+        "weight": 0.9
+      }
+    ],
+    "implies": [
+      {
+        "id": "react",
+        "weight": 0.8
+      }
+    ]
+  },
+  {
+    "id": "tailwind_css",
+    "name": "Tailwind CSS",
+    "category": "libraries",
+    "aliases": [
+      "tailwind",
+      "tailwind css",
+      "tailwindcss"
+    ],
+    "related": [
+      {
+        "id": "css",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "css",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "bootstrap",
+    "name": "Bootstrap",
+    "category": "libraries",
+    "aliases": [
+      "bootstrap",
+      "bootstrap 5"
+    ],
+    "related": [
+      {
+        "id": "css",
+        "weight": 0.85
+      }
+    ],
+    "implies": [
+      {
+        "id": "css",
+        "weight": 0.85
+      }
+    ]
+  },
+  {
+    "id": "material_ui",
+    "name": "Material UI",
+    "category": "libraries",
+    "aliases": [
+      "material ui",
+      "mui",
+      "material-ui"
+    ],
+    "related": [
+      {
+        "id": "react",
+        "weight": 0.9
+      }
+    ],
+    "implies": [
+      {
+        "id": "react",
+        "weight": 0.85
+      }
+    ]
+  },
+  {
+    "id": "shadcn_ui",
+    "name": "shadcn/ui",
+    "category": "libraries",
+    "aliases": [
+      "shadcn",
+      "shadcn/ui",
+      "shadcn ui"
+    ],
+    "related": [
+      {
+        "id": "tailwind_css",
+        "weight": 0.9
+      },
+      {
+        "id": "react",
+        "weight": 0.9
+      }
+    ],
+    "implies": [
+      {
+        "id": "react",
+        "weight": 0.85
+      }
+    ]
+  },
+  {
+    "id": "threejs",
+    "name": "Three.js",
+    "category": "libraries",
+    "aliases": [
+      "three.js",
+      "threejs",
+      "three js"
+    ],
+    "related": [
+      {
+        "id": "webgl",
+        "weight": 0.9
+      }
+    ],
+    "implies": [
+      {
+        "id": "javascript",
+        "weight": 0.85
+      }
+    ]
+  },
+  {
+    "id": "d3js",
+    "name": "D3.js",
+    "category": "libraries",
+    "aliases": [
+      "d3",
+      "d3.js",
+      "d3js"
+    ],
+    "related": [
+      {
+        "id": "javascript",
+        "weight": 0.9
+      }
+    ],
+    "implies": [
+      {
+        "id": "javascript",
+        "weight": 0.85
+      }
+    ]
+  },
+  {
+    "id": "sqlalchemy",
+    "name": "SQLAlchemy",
+    "category": "libraries",
+    "aliases": [
+      "sqlalchemy"
+    ],
+    "related": [
+      {
+        "id": "python",
+        "weight": 0.9
+      },
+      {
+        "id": "sql",
+        "weight": 0.9
+      }
+    ],
+    "implies": [
+      {
+        "id": "python",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "prisma",
+    "name": "Prisma",
+    "category": "libraries",
+    "aliases": [
+      "prisma",
+      "prisma orm"
+    ],
+    "related": [
+      {
+        "id": "typescript",
+        "weight": 0.9
+      }
+    ],
+    "implies": [
+      {
+        "id": "typescript",
+        "weight": 0.85
+      }
+    ]
+  },
+  {
+    "id": "drizzle",
+    "name": "Drizzle ORM",
+    "category": "libraries",
+    "aliases": [
+      "drizzle",
+      "drizzle orm"
+    ],
+    "related": [
+      {
+        "id": "typescript",
+        "weight": 0.9
+      }
+    ],
+    "implies": [
+      {
+        "id": "typescript",
+        "weight": 0.85
+      }
+    ]
+  },
+  {
+    "id": "pydantic",
+    "name": "Pydantic",
+    "category": "libraries",
+    "aliases": [
+      "pydantic"
+    ],
+    "related": [
+      {
+        "id": "fastapi",
+        "weight": 0.9
+      }
+    ],
+    "implies": [
+      {
+        "id": "python",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "celery",
+    "name": "Celery",
+    "category": "libraries",
+    "aliases": [
+      "celery"
+    ],
+    "related": [
+      {
+        "id": "redis",
+        "weight": 0.8
+      },
+      {
+        "id": "python",
+        "weight": 0.9
+      }
+    ],
+    "implies": [
+      {
+        "id": "python",
+        "weight": 0.85
+      }
+    ]
+  },
+  {
+    "id": "spacy",
+    "name": "spaCy",
+    "category": "libraries",
+    "aliases": [
+      "spacy"
+    ],
+    "related": [
+      {
+        "id": "nlp",
+        "weight": 0.9
+      }
+    ],
+    "implies": [
+      {
+        "id": "python",
+        "weight": 0.85
+      },
+      {
+        "id": "nlp",
+        "weight": 0.85
+      }
+    ]
+  },
+  {
+    "id": "nltk",
+    "name": "NLTK",
+    "category": "libraries",
+    "aliases": [
+      "nltk"
+    ],
+    "related": [
+      {
+        "id": "nlp",
+        "weight": 0.85
+      }
+    ],
+    "implies": [
+      {
+        "id": "python",
+        "weight": 0.85
+      },
+      {
+        "id": "nlp",
+        "weight": 0.8
+      }
+    ]
+  },
+  {
+    "id": "opencv",
+    "name": "OpenCV",
+    "category": "libraries",
+    "aliases": [
+      "opencv",
+      "cv2"
+    ],
+    "related": [
+      {
+        "id": "computer_vision",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "computer_vision",
+        "weight": 0.85
+      }
+    ]
+  },
+  {
+    "id": "beautifulsoup",
+    "name": "BeautifulSoup",
+    "category": "libraries",
+    "aliases": [
+      "beautifulsoup",
+      "beautifulsoup4",
+      "bs4"
+    ],
+    "related": [
+      {
+        "id": "python",
+        "weight": 0.85
+      }
+    ],
+    "implies": [
+      {
+        "id": "python",
+        "weight": 0.85
+      }
+    ]
+  },
+  {
+    "id": "scrapy",
+    "name": "Scrapy",
+    "category": "libraries",
+    "aliases": [
+      "scrapy"
+    ],
+    "related": [
+      {
+        "id": "python",
+        "weight": 0.9
+      }
+    ],
+    "implies": [
+      {
+        "id": "python",
+        "weight": 0.85
+      }
+    ]
+  },
+  {
+    "id": "framer_motion",
+    "name": "Motion / Framer Motion",
+    "category": "libraries",
+    "aliases": [
+      "framer motion",
+      "framer-motion",
+      "motion/react"
+    ],
+    "related": [
+      {
+        "id": "react",
+        "weight": 0.9
+      }
+    ],
+    "implies": [
+      {
+        "id": "react",
+        "weight": 0.85
+      }
+    ]
+  },
+  {
+    "id": "zod",
+    "name": "Zod",
+    "category": "libraries",
+    "aliases": [
+      "zod"
+    ],
+    "related": [
+      {
+        "id": "typescript",
+        "weight": 0.9
+      }
+    ],
+    "implies": [
+      {
+        "id": "typescript",
+        "weight": 0.85
+      }
+    ]
+  },
+  {
+    "id": "axios",
+    "name": "Axios",
+    "category": "libraries",
+    "aliases": [
+      "axios"
+    ],
+    "related": [
+      {
+        "id": "javascript",
+        "weight": 0.85
+      }
+    ],
+    "implies": [
+      {
+        "id": "javascript",
+        "weight": 0.85
+      }
+    ]
+  },
+  {
+    "id": "socketio",
+    "name": "Socket.io",
+    "category": "libraries",
+    "aliases": [
+      "socket.io",
+      "socketio",
+      "websockets"
+    ],
+    "related": [
+      {
+        "id": "nodejs",
+        "weight": 0.8
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "grpc",
+    "name": "gRPC",
+    "category": "libraries",
+    "aliases": [
+      "grpc",
+      "protocol buffers",
+      "protobuf"
+    ],
+    "related": [
+      {
+        "id": "microservices",
+        "weight": 0.85
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "postgresql",
+    "name": "PostgreSQL",
+    "category": "databases",
+    "aliases": [
+      "postgresql",
+      "postgres",
+      "psql"
+    ],
+    "related": [
+      {
+        "id": "sql",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "sql",
+        "weight": 0.95
+      }
+    ]
+  },
+  {
+    "id": "mysql",
+    "name": "MySQL",
+    "category": "databases",
+    "aliases": [
+      "mysql"
+    ],
+    "related": [
+      {
+        "id": "sql",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "sql",
+        "weight": 0.95
+      }
+    ]
+  },
+  {
+    "id": "sqlite",
+    "name": "SQLite",
+    "category": "databases",
+    "aliases": [
+      "sqlite",
+      "sqlite3"
+    ],
+    "related": [
+      {
+        "id": "sql",
+        "weight": 0.9
+      }
+    ],
+    "implies": [
+      {
+        "id": "sql",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "mongodb",
+    "name": "MongoDB",
+    "category": "databases",
+    "aliases": [
+      "mongodb",
+      "mongo"
+    ],
+    "related": [
+      {
+        "id": "nosql",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "nosql",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "redis",
+    "name": "Redis",
+    "category": "databases",
+    "aliases": [
+      "redis"
+    ],
+    "related": [
+      {
+        "id": "caching",
+        "weight": 0.9
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "cassandra",
+    "name": "Apache Cassandra",
+    "category": "databases",
+    "aliases": [
+      "cassandra",
+      "apache cassandra"
+    ],
+    "related": [
+      {
+        "id": "nosql",
+        "weight": 0.9
+      }
+    ],
+    "implies": [
+      {
+        "id": "nosql",
+        "weight": 0.85
+      }
+    ]
+  },
+  {
+    "id": "dynamodb",
+    "name": "Amazon DynamoDB",
+    "category": "databases",
+    "aliases": [
+      "dynamodb",
+      "amazon dynamodb"
+    ],
+    "related": [
+      {
+        "id": "aws",
+        "weight": 0.9
+      },
+      {
+        "id": "nosql",
+        "weight": 0.9
+      }
+    ],
+    "implies": [
+      {
+        "id": "nosql",
+        "weight": 0.85
+      }
+    ]
+  },
+  {
+    "id": "elasticsearch",
+    "name": "Elasticsearch",
+    "category": "databases",
+    "aliases": [
+      "elasticsearch",
+      "elastic search",
+      "elk"
+    ],
+    "related": [
+      {
+        "id": "opensearch",
+        "weight": 0.9
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "opensearch",
+    "name": "OpenSearch",
+    "category": "databases",
+    "aliases": [
+      "opensearch"
+    ],
+    "related": [
+      {
+        "id": "elasticsearch",
+        "weight": 0.9
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "neo4j",
+    "name": "Neo4j",
+    "category": "databases",
+    "aliases": [
+      "neo4j",
+      "graph database"
+    ],
+    "related": [
+      {
+        "id": "nosql",
+        "weight": 0.8
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "couchbase",
+    "name": "Couchbase",
+    "category": "databases",
+    "aliases": [
+      "couchbase"
+    ],
+    "related": [
+      {
+        "id": "nosql",
+        "weight": 0.85
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "mariadb",
+    "name": "MariaDB",
+    "category": "databases",
+    "aliases": [
+      "mariadb"
+    ],
+    "related": [
+      {
+        "id": "mysql",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "sql",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "oracle_db",
+    "name": "Oracle Database",
+    "category": "databases",
+    "aliases": [
+      "oracle db",
+      "oracle database",
+      "oracle 19c"
+    ],
+    "related": [
+      {
+        "id": "sql",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "sql",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "sql_server",
+    "name": "Microsoft SQL Server",
+    "category": "databases",
+    "aliases": [
+      "sql server",
+      "ms sql server",
+      "mssql"
+    ],
+    "related": [
+      {
+        "id": "sql",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "sql",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "snowflake",
+    "name": "Snowflake",
+    "category": "databases",
+    "aliases": [
+      "snowflake",
+      "snowflake data warehouse"
+    ],
+    "related": [
+      {
+        "id": "data_warehouse",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "sql",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "bigquery",
+    "name": "Google BigQuery",
+    "category": "databases",
+    "aliases": [
+      "bigquery",
+      "google bigquery"
+    ],
+    "related": [
+      {
+        "id": "gcp",
+        "weight": 0.9
+      },
+      {
+        "id": "data_warehouse",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "sql",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "clickhouse",
+    "name": "ClickHouse",
+    "category": "databases",
+    "aliases": [
+      "clickhouse"
+    ],
+    "related": [
+      {
+        "id": "data_warehouse",
+        "weight": 0.85
+      }
+    ],
+    "implies": [
+      {
+        "id": "sql",
+        "weight": 0.85
+      }
+    ]
+  },
+  {
+    "id": "pinecone",
+    "name": "Pinecone",
+    "category": "databases",
+    "aliases": [
+      "pinecone",
+      "pinecone db"
+    ],
+    "related": [
+      {
+        "id": "vector_databases",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "vector_databases",
+        "weight": 0.95
+      }
+    ]
+  },
+  {
+    "id": "chromadb",
+    "name": "ChromaDB",
+    "category": "databases",
+    "aliases": [
+      "chromadb",
+      "chroma db"
+    ],
+    "related": [
+      {
+        "id": "vector_databases",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "vector_databases",
+        "weight": 0.95
+      }
+    ]
+  },
+  {
+    "id": "weaviate",
+    "name": "Weaviate",
+    "category": "databases",
+    "aliases": [
+      "weaviate"
+    ],
+    "related": [
+      {
+        "id": "vector_databases",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "vector_databases",
+        "weight": 0.95
+      }
+    ]
+  },
+  {
+    "id": "milvus",
+    "name": "Milvus",
+    "category": "databases",
+    "aliases": [
+      "milvus"
+    ],
+    "related": [
+      {
+        "id": "vector_databases",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "vector_databases",
+        "weight": 0.95
+      }
+    ]
+  },
+  {
+    "id": "qdrant",
+    "name": "Qdrant",
+    "category": "databases",
+    "aliases": [
+      "qdrant"
+    ],
+    "related": [
+      {
+        "id": "vector_databases",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "vector_databases",
+        "weight": 0.95
+      }
+    ]
+  },
+  {
+    "id": "firebase_rtdb",
+    "name": "Firebase Realtime DB",
+    "category": "databases",
+    "aliases": [
+      "firebase realtime database",
+      "firestore"
+    ],
+    "related": [
+      {
+        "id": "firebase",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "nosql",
+        "weight": 0.85
+      }
+    ]
+  },
+  {
+    "id": "supabase_db",
+    "name": "Supabase Database",
+    "category": "databases",
+    "aliases": [
+      "supabase database",
+      "supabase postgres"
+    ],
+    "related": [
+      {
+        "id": "supabase",
+        "weight": 0.95
+      },
+      {
+        "id": "postgresql",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "postgresql",
+        "weight": 0.95
+      }
+    ]
+  },
+  {
+    "id": "cockroachdb",
+    "name": "CockroachDB",
+    "category": "databases",
+    "aliases": [
+      "cockroachdb",
+      "cockroach db"
+    ],
+    "related": [
+      {
+        "id": "postgresql",
+        "weight": 0.85
+      }
+    ],
+    "implies": [
+      {
+        "id": "sql",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "aws",
+    "name": "Amazon Web Services (AWS)",
+    "category": "cloud",
+    "aliases": [
+      "aws",
+      "amazon web services"
+    ],
+    "related": [
+      {
+        "id": "cloud_computing",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "cloud_computing",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "azure",
+    "name": "Microsoft Azure",
+    "category": "cloud",
+    "aliases": [
+      "azure",
+      "microsoft azure"
+    ],
+    "related": [
+      {
+        "id": "cloud_computing",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "cloud_computing",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "gcp",
+    "name": "Google Cloud Platform (GCP)",
+    "category": "cloud",
+    "aliases": [
+      "gcp",
+      "google cloud",
+      "google cloud platform"
+    ],
+    "related": [
+      {
+        "id": "cloud_computing",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "cloud_computing",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "cloudflare",
+    "name": "Cloudflare",
+    "category": "cloud",
+    "aliases": [
+      "cloudflare",
+      "cloudflare workers"
+    ],
+    "related": [
+      {
+        "id": "cdn",
+        "weight": 0.85
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "vercel",
+    "name": "Vercel",
+    "category": "cloud",
+    "aliases": [
+      "vercel"
+    ],
+    "related": [
+      {
+        "id": "nextjs",
+        "weight": 0.85
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "netlify",
+    "name": "Netlify",
+    "category": "cloud",
+    "aliases": [
+      "netlify"
+    ],
+    "related": [
+      {
+        "id": "vercel",
+        "weight": 0.8
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "heroku",
+    "name": "Heroku",
+    "category": "cloud",
+    "aliases": [
+      "heroku"
+    ],
+    "related": [
+      {
+        "id": "cloud_computing",
+        "weight": 0.85
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "digitalocean",
+    "name": "DigitalOcean",
+    "category": "cloud",
+    "aliases": [
+      "digitalocean",
+      "digital ocean"
+    ],
+    "related": [
+      {
+        "id": "cloud_computing",
+        "weight": 0.85
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "aws_lambda",
+    "name": "AWS Lambda",
+    "category": "cloud",
+    "aliases": [
+      "aws lambda",
+      "lambda functions",
+      "serverless lambda"
+    ],
+    "related": [
+      {
+        "id": "aws",
+        "weight": 0.95
+      },
+      {
+        "id": "serverless",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "aws",
+        "weight": 0.9
+      },
+      {
+        "id": "serverless",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "aws_s3",
+    "name": "Amazon S3",
+    "category": "cloud",
+    "aliases": [
+      "s3",
+      "amazon s3",
+      "aws s3"
+    ],
+    "related": [
+      {
+        "id": "aws",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "aws",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "aws_ec2",
+    "name": "Amazon EC2",
+    "category": "cloud",
+    "aliases": [
+      "ec2",
+      "amazon ec2",
+      "aws ec2"
+    ],
+    "related": [
+      {
+        "id": "aws",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "aws",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "aws_rds",
+    "name": "Amazon RDS",
+    "category": "cloud",
+    "aliases": [
+      "rds",
+      "amazon rds",
+      "aws rds"
+    ],
+    "related": [
+      {
+        "id": "aws",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "aws",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "cloud_run",
+    "name": "Google Cloud Run",
+    "category": "cloud",
+    "aliases": [
+      "cloud run",
+      "google cloud run"
+    ],
+    "related": [
+      {
+        "id": "gcp",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "gcp",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "gcs",
+    "name": "Google Cloud Storage",
+    "category": "cloud",
+    "aliases": [
+      "gcs",
+      "google cloud storage"
+    ],
+    "related": [
+      {
+        "id": "gcp",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "gcp",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "azure_functions",
+    "name": "Azure Functions",
+    "category": "cloud",
+    "aliases": [
+      "azure functions"
+    ],
+    "related": [
+      {
+        "id": "azure",
+        "weight": 0.95
+      },
+      {
+        "id": "serverless",
+        "weight": 0.9
+      }
+    ],
+    "implies": [
+      {
+        "id": "azure",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "azure_blob",
+    "name": "Azure Blob Storage",
+    "category": "cloud",
+    "aliases": [
+      "azure blob storage",
+      "blob storage"
+    ],
+    "related": [
+      {
+        "id": "azure",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "azure",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "firebase",
+    "name": "Firebase",
+    "category": "cloud",
+    "aliases": [
+      "firebase"
+    ],
+    "related": [
+      {
+        "id": "gcp",
+        "weight": 0.85
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "supabase",
+    "name": "Supabase",
+    "category": "cloud",
+    "aliases": [
+      "supabase"
+    ],
+    "related": [
+      {
+        "id": "postgresql",
+        "weight": 0.9
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "cloud_computing",
+    "name": "Cloud Computing",
+    "category": "cloud",
+    "aliases": [
+      "cloud computing",
+      "cloud architecture",
+      "multi-cloud"
+    ],
+    "related": [
+      {
+        "id": "aws",
+        "weight": 0.85
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "serverless",
+    "name": "Serverless Architecture",
+    "category": "cloud",
+    "aliases": [
+      "serverless",
+      "faas"
+    ],
+    "related": [
+      {
+        "id": "aws_lambda",
+        "weight": 0.9
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "iam",
+    "name": "Cloud IAM",
+    "category": "cloud",
+    "aliases": [
+      "iam",
+      "identity and access management",
+      "aws iam"
+    ],
+    "related": [
+      {
+        "id": "cybersecurity",
+        "weight": 0.85
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "vpc",
+    "name": "Virtual Private Cloud (VPC)",
+    "category": "cloud",
+    "aliases": [
+      "vpc",
+      "virtual private cloud",
+      "subnetting"
+    ],
+    "related": [
+      {
+        "id": "cloud_computing",
+        "weight": 0.85
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "cdn",
+    "name": "Content Delivery Network (CDN)",
+    "category": "cloud",
+    "aliases": [
+      "cdn",
+      "content delivery network",
+      "cloudfront"
+    ],
+    "related": [
+      {
+        "id": "cloud_computing",
+        "weight": 0.8
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "load_balancing",
+    "name": "Cloud Load Balancing",
+    "category": "cloud",
+    "aliases": [
+      "load balancing",
+      "load balancer",
+      "alb",
+      "nlb"
+    ],
+    "related": [
+      {
+        "id": "cloud_computing",
+        "weight": 0.85
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "api_gateway",
+    "name": "API Gateway",
+    "category": "cloud",
+    "aliases": [
+      "api gateway",
+      "aws api gateway",
+      "kong"
+    ],
+    "related": [
+      {
+        "id": "microservices",
+        "weight": 0.85
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "docker",
+    "name": "Docker",
+    "category": "devops",
+    "aliases": [
+      "docker",
+      "containerization",
+      "docker-compose",
+      "dockerfile"
+    ],
+    "related": [
+      {
+        "id": "kubernetes",
+        "weight": 0.85
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "kubernetes",
+    "name": "Kubernetes",
+    "category": "devops",
+    "aliases": [
+      "kubernetes",
+      "k8s"
+    ],
+    "related": [
+      {
+        "id": "docker",
+        "weight": 0.9
+      },
+      {
+        "id": "helm",
+        "weight": 0.85
+      }
+    ],
+    "implies": [
+      {
+        "id": "docker",
+        "weight": 0.8
+      }
+    ]
+  },
+  {
+    "id": "terraform",
+    "name": "Terraform",
+    "category": "devops",
+    "aliases": [
+      "terraform",
+      "hashicorp terraform",
+      "iac",
+      "infrastructure as code"
+    ],
+    "related": [
+      {
+        "id": "ansible",
+        "weight": 0.8
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "ansible",
+    "name": "Ansible",
+    "category": "devops",
+    "aliases": [
+      "ansible"
+    ],
+    "related": [
+      {
+        "id": "terraform",
+        "weight": 0.8
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "github_actions",
+    "name": "GitHub Actions",
+    "category": "devops",
+    "aliases": [
+      "github actions",
+      "gha"
+    ],
+    "related": [
+      {
+        "id": "cicd",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "cicd",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "gitlab_ci",
+    "name": "GitLab CI/CD",
+    "category": "devops",
+    "aliases": [
+      "gitlab ci",
+      "gitlab ci/cd",
+      "gitlab-ci"
+    ],
+    "related": [
+      {
+        "id": "cicd",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "cicd",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "jenkins",
+    "name": "Jenkins",
+    "category": "devops",
+    "aliases": [
+      "jenkins",
+      "jenkins pipeline"
+    ],
+    "related": [
+      {
+        "id": "cicd",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "cicd",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "argocd",
+    "name": "ArgoCD",
+    "category": "devops",
+    "aliases": [
+      "argocd",
+      "argo cd",
+      "gitops"
+    ],
+    "related": [
+      {
+        "id": "kubernetes",
+        "weight": 0.9
+      }
+    ],
+    "implies": [
+      {
+        "id": "kubernetes",
+        "weight": 0.85
+      }
+    ]
+  },
+  {
+    "id": "helm",
+    "name": "Helm",
+    "category": "devops",
+    "aliases": [
+      "helm",
+      "helm charts"
+    ],
+    "related": [
+      {
+        "id": "kubernetes",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "kubernetes",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "circleci",
+    "name": "CircleCI",
+    "category": "devops",
+    "aliases": [
+      "circleci",
+      "circle ci"
+    ],
+    "related": [
+      {
+        "id": "cicd",
+        "weight": 0.9
+      }
+    ],
+    "implies": [
+      {
+        "id": "cicd",
+        "weight": 0.85
+      }
+    ]
+  },
+  {
+    "id": "prometheus",
+    "name": "Prometheus",
+    "category": "devops",
+    "aliases": [
+      "prometheus"
+    ],
+    "related": [
+      {
+        "id": "grafana",
+        "weight": 0.9
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "grafana",
+    "name": "Grafana",
+    "category": "devops",
+    "aliases": [
+      "grafana"
+    ],
+    "related": [
+      {
+        "id": "prometheus",
+        "weight": 0.9
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "opentelemetry",
+    "name": "OpenTelemetry",
+    "category": "devops",
+    "aliases": [
+      "opentelemetry",
+      "otel"
+    ],
+    "related": [
+      {
+        "id": "prometheus",
+        "weight": 0.8
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "nginx",
+    "name": "Nginx",
+    "category": "devops",
+    "aliases": [
+      "nginx",
+      "reverse proxy"
+    ],
+    "related": [
+      {
+        "id": "linux",
+        "weight": 0.8
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "apache_httpd",
+    "name": "Apache HTTP Server",
+    "category": "devops",
+    "aliases": [
+      "apache web server",
+      "httpd"
+    ],
+    "related": [
+      {
+        "id": "nginx",
+        "weight": 0.75
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "linux",
+    "name": "Linux Administration",
+    "category": "devops",
+    "aliases": [
+      "linux",
+      "ubuntu",
+      "debian",
+      "centos",
+      "rhel",
+      "redhat"
+    ],
+    "related": [
+      {
+        "id": "bash",
+        "weight": 0.85
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "cicd",
+    "name": "CI/CD Pipelines",
+    "category": "devops",
+    "aliases": [
+      "ci/cd",
+      "continuous integration",
+      "ci cd",
+      "build pipeline"
+    ],
+    "related": [
+      {
+        "id": "devops",
+        "weight": 0.9
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "devops",
+    "name": "DevOps Practices",
+    "category": "devops",
+    "aliases": [
+      "devops",
+      "site reliability engineering",
+      "sre"
+    ],
+    "related": [
+      {
+        "id": "cicd",
+        "weight": 0.9
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "datadog",
+    "name": "Datadog",
+    "category": "devops",
+    "aliases": [
+      "datadog"
+    ],
+    "related": [
+      {
+        "id": "grafana",
+        "weight": 0.8
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "new_relic",
+    "name": "New Relic",
+    "category": "devops",
+    "aliases": [
+      "new relic",
+      "newrelic"
+    ],
+    "related": [
+      {
+        "id": "datadog",
+        "weight": 0.8
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "vagrant",
+    "name": "Vagrant",
+    "category": "devops",
+    "aliases": [
+      "vagrant"
+    ],
+    "related": [
+      {
+        "id": "docker",
+        "weight": 0.8
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "puppet",
+    "name": "Puppet",
+    "category": "devops",
+    "aliases": [
+      "puppet"
+    ],
+    "related": [
+      {
+        "id": "ansible",
+        "weight": 0.8
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "chef",
+    "name": "Chef",
+    "category": "devops",
+    "aliases": [
+      "chef infra"
+    ],
+    "related": [
+      {
+        "id": "ansible",
+        "weight": 0.8
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "sonarqube",
+    "name": "SonarQube",
+    "category": "devops",
+    "aliases": [
+      "sonarqube",
+      "sonar"
+    ],
+    "related": [
+      {
+        "id": "cicd",
+        "weight": 0.8
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "vault",
+    "name": "HashiCorp Vault",
+    "category": "devops",
+    "aliases": [
+      "vault",
+      "hashicorp vault"
+    ],
+    "related": [
+      {
+        "id": "cybersecurity",
+        "weight": 0.85
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "machine_learning",
+    "name": "Machine Learning",
+    "category": "data_ml",
+    "aliases": [
+      "machine learning",
+      "ml",
+      "supervised learning",
+      "unsupervised learning"
+    ],
+    "related": [
+      {
+        "id": "deep_learning",
+        "weight": 0.85
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "deep_learning",
+    "name": "Deep Learning",
+    "category": "data_ml",
+    "aliases": [
+      "deep learning",
+      "neural networks",
+      "cnn",
+      "rnn",
+      "lstm"
+    ],
+    "related": [
+      {
+        "id": "pytorch",
+        "weight": 0.9
+      },
+      {
+        "id": "tensorflow",
+        "weight": 0.9
+      }
+    ],
+    "implies": [
+      {
+        "id": "machine_learning",
+        "weight": 0.95
+      }
+    ]
+  },
+  {
+    "id": "nlp",
+    "name": "Natural Language Processing",
+    "category": "data_ml",
+    "aliases": [
+      "natural language processing",
+      "nlp",
+      "text mining"
+    ],
+    "related": [
+      {
+        "id": "llm",
+        "weight": 0.9
+      }
+    ],
+    "implies": [
+      {
+        "id": "machine_learning",
+        "weight": 0.85
+      }
+    ]
+  },
+  {
+    "id": "computer_vision",
+    "name": "Computer Vision",
+    "category": "data_ml",
+    "aliases": [
+      "computer vision",
+      "cv",
+      "object detection",
+      "image segmentation"
+    ],
+    "related": [
+      {
+        "id": "deep_learning",
+        "weight": 0.9
+      }
+    ],
+    "implies": [
+      {
+        "id": "deep_learning",
+        "weight": 0.85
+      }
+    ]
+  },
+  {
+    "id": "llm",
+    "name": "Large Language Models (LLMs)",
+    "category": "data_ml",
+    "aliases": [
+      "large language models",
+      "llm",
+      "llms",
+      "genai",
+      "generative ai"
+    ],
+    "related": [
+      {
+        "id": "nlp",
+        "weight": 0.95
+      },
+      {
+        "id": "rag",
+        "weight": 0.9
+      }
+    ],
+    "implies": [
+      {
+        "id": "nlp",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "rag",
+    "name": "Retrieval-Augmented Generation (RAG)",
+    "category": "data_ml",
+    "aliases": [
+      "retrieval-augmented generation",
+      "rag"
+    ],
+    "related": [
+      {
+        "id": "llm",
+        "weight": 0.95
+      },
+      {
+        "id": "vector_databases",
+        "weight": 0.9
+      }
+    ],
+    "implies": [
+      {
+        "id": "llm",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "mlops",
+    "name": "MLOps",
+    "category": "data_ml",
+    "aliases": [
+      "mlops",
+      "machine learning operations",
+      "model deployment"
+    ],
+    "related": [
+      {
+        "id": "devops",
+        "weight": 0.85
+      }
+    ],
+    "implies": [
+      {
+        "id": "machine_learning",
+        "weight": 0.85
+      }
+    ]
+  },
+  {
+    "id": "data_pipelines",
+    "name": "Data Pipelines & ETL",
+    "category": "data_ml",
+    "aliases": [
+      "data pipelines",
+      "etl",
+      "elt",
+      "data ingestion"
+    ],
+    "related": [
+      {
+        "id": "data_engineering",
+        "weight": 0.95
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "data_engineering",
+    "name": "Data Engineering",
+    "category": "data_ml",
+    "aliases": [
+      "data engineering",
+      "big data"
+    ],
+    "related": [
+      {
+        "id": "data_pipelines",
+        "weight": 0.95
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "kafka",
+    "name": "Apache Kafka",
+    "category": "data_ml",
+    "aliases": [
+      "kafka",
+      "apache kafka",
+      "event streaming"
+    ],
+    "related": [
+      {
+        "id": "data_pipelines",
+        "weight": 0.9
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "airflow",
+    "name": "Apache Airflow",
+    "category": "data_ml",
+    "aliases": [
+      "airflow",
+      "apache airflow"
+    ],
+    "related": [
+      {
+        "id": "data_pipelines",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "python",
+        "weight": 0.85
+      }
+    ]
+  },
+  {
+    "id": "dbt",
+    "name": "dbt (data build tool)",
+    "category": "data_ml",
+    "aliases": [
+      "dbt",
+      "data build tool"
+    ],
+    "related": [
+      {
+        "id": "sql",
+        "weight": 0.9
+      },
+      {
+        "id": "snowflake",
+        "weight": 0.85
+      }
+    ],
+    "implies": [
+      {
+        "id": "sql",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "feature_engineering",
+    "name": "Feature Engineering",
+    "category": "data_ml",
+    "aliases": [
+      "feature engineering",
+      "feature extraction",
+      "feature selection"
+    ],
+    "related": [
+      {
+        "id": "machine_learning",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "machine_learning",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "embeddings",
+    "name": "Vector Embeddings",
+    "category": "data_ml",
+    "aliases": [
+      "embeddings",
+      "vector embeddings",
+      "sentence-transformers"
+    ],
+    "related": [
+      {
+        "id": "llm",
+        "weight": 0.9
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "model_fine_tuning",
+    "name": "Model Fine-Tuning",
+    "category": "data_ml",
+    "aliases": [
+      "fine-tuning",
+      "lora",
+      "qlora",
+      "peft"
+    ],
+    "related": [
+      {
+        "id": "llm",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "deep_learning",
+        "weight": 0.85
+      }
+    ]
+  },
+  {
+    "id": "reinforcement_learning",
+    "name": "Reinforcement Learning",
+    "category": "data_ml",
+    "aliases": [
+      "reinforcement learning",
+      "rl",
+      "rlhf"
+    ],
+    "related": [
+      {
+        "id": "machine_learning",
+        "weight": 0.9
+      }
+    ],
+    "implies": [
+      {
+        "id": "machine_learning",
+        "weight": 0.85
+      }
+    ]
+  },
+  {
+    "id": "mlflow",
+    "name": "MLflow",
+    "category": "data_ml",
+    "aliases": [
+      "mlflow"
+    ],
+    "related": [
+      {
+        "id": "mlops",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "mlops",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "kubeflow",
+    "name": "Kubeflow",
+    "category": "data_ml",
+    "aliases": [
+      "kubeflow"
+    ],
+    "related": [
+      {
+        "id": "kubernetes",
+        "weight": 0.9
+      },
+      {
+        "id": "mlops",
+        "weight": 0.9
+      }
+    ],
+    "implies": [
+      {
+        "id": "kubernetes",
+        "weight": 0.85
+      }
+    ]
+  },
+  {
+    "id": "xgboost",
+    "name": "XGBoost",
+    "category": "data_ml",
+    "aliases": [
+      "xgboost",
+      "gradient boosting"
+    ],
+    "related": [
+      {
+        "id": "machine_learning",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "machine_learning",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "lightgbm",
+    "name": "LightGBM",
+    "category": "data_ml",
+    "aliases": [
+      "lightgbm"
+    ],
+    "related": [
+      {
+        "id": "xgboost",
+        "weight": 0.9
+      }
+    ],
+    "implies": [
+      {
+        "id": "machine_learning",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "time_series",
+    "name": "Time Series Forecasting",
+    "category": "data_ml",
+    "aliases": [
+      "time series",
+      "arima",
+      "prophet",
+      "forecasting"
+    ],
+    "related": [
+      {
+        "id": "machine_learning",
+        "weight": 0.85
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "recommender_systems",
+    "name": "Recommender Systems",
+    "category": "data_ml",
+    "aliases": [
+      "recommender systems",
+      "collaborative filtering"
+    ],
+    "related": [
+      {
+        "id": "machine_learning",
+        "weight": 0.85
+      }
+    ],
+    "implies": [
+      {
+        "id": "machine_learning",
+        "weight": 0.8
+      }
+    ]
+  },
+  {
+    "id": "data_warehouse",
+    "name": "Data Warehousing",
+    "category": "data_ml",
+    "aliases": [
+      "data warehousing",
+      "data warehouse",
+      "olap",
+      "star schema"
+    ],
+    "related": [
+      {
+        "id": "sql",
+        "weight": 0.9
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "data_lake",
+    "name": "Data Lakes",
+    "category": "data_ml",
+    "aliases": [
+      "data lake",
+      "delta lake",
+      "parquet"
+    ],
+    "related": [
+      {
+        "id": "spark",
+        "weight": 0.85
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "statistics",
+    "name": "Statistical Modeling",
+    "category": "data_ml",
+    "aliases": [
+      "statistics",
+      "statistical modeling",
+      "hypothesis testing"
+    ],
+    "related": [
+      {
+        "id": "data_analysis",
+        "weight": 0.9
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "data_analysis",
+    "name": "Data Analysis",
+    "category": "data_ml",
+    "aliases": [
+      "data analysis",
+      "exploratory data analysis",
+      "exploratory analysis"
+    ],
+    "related": [
+      {
+        "id": "pandas",
+        "weight": 0.85
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "vector_databases",
+    "name": "Vector Databases",
+    "category": "data_ml",
+    "aliases": [
+      "vector databases",
+      "vector search",
+      "similarity search"
+    ],
+    "related": [
+      {
+        "id": "rag",
+        "weight": 0.9
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "prompt_engineering",
+    "name": "Prompt Engineering",
+    "category": "data_ml",
+    "aliases": [
+      "prompt engineering",
+      "few-shot prompting",
+      "chain-of-thought"
+    ],
+    "related": [
+      {
+        "id": "llm",
+        "weight": 0.9
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "data_visualization",
+    "name": "Data Visualization",
+    "category": "data_ml",
+    "aliases": [
+      "data visualization",
+      "charting",
+      "dashboarding"
+    ],
+    "related": [
+      {
+        "id": "tableau",
+        "weight": 0.85
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "ai_agents",
+    "name": "Autonomous AI Agents",
+    "category": "data_ml",
+    "aliases": [
+      "ai agents",
+      "autonomous agents",
+      "tool calling",
+      "function calling"
+    ],
+    "related": [
+      {
+        "id": "llm",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "llm",
+        "weight": 0.85
+      }
+    ]
+  },
+  {
+    "id": "pytest",
+    "name": "Pytest",
+    "category": "testing",
+    "aliases": [
+      "pytest"
+    ],
+    "related": [
+      {
+        "id": "python",
+        "weight": 0.9
+      },
+      {
+        "id": "unit_testing",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "python",
+        "weight": 0.9
+      },
+      {
+        "id": "unit_testing",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "jest",
+    "name": "Jest",
+    "category": "testing",
+    "aliases": [
+      "jest"
+    ],
+    "related": [
+      {
+        "id": "javascript",
+        "weight": 0.9
+      },
+      {
+        "id": "unit_testing",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "javascript",
+        "weight": 0.85
+      },
+      {
+        "id": "unit_testing",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "vitest",
+    "name": "Vitest",
+    "category": "testing",
+    "aliases": [
+      "vitest"
+    ],
+    "related": [
+      {
+        "id": "vite",
+        "weight": 0.9
+      },
+      {
+        "id": "unit_testing",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "unit_testing",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "playwright",
+    "name": "Playwright",
+    "category": "testing",
+    "aliases": [
+      "playwright",
+      "playwright testing"
+    ],
+    "related": [
+      {
+        "id": "e2e_testing",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "e2e_testing",
+        "weight": 0.95
+      }
+    ]
+  },
+  {
+    "id": "cypress",
+    "name": "Cypress",
+    "category": "testing",
+    "aliases": [
+      "cypress",
+      "cypress.io"
+    ],
+    "related": [
+      {
+        "id": "e2e_testing",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "e2e_testing",
+        "weight": 0.95
+      }
+    ]
+  },
+  {
+    "id": "selenium",
+    "name": "Selenium",
+    "category": "testing",
+    "aliases": [
+      "selenium",
+      "selenium webdriver"
+    ],
+    "related": [
+      {
+        "id": "e2e_testing",
+        "weight": 0.9
+      }
+    ],
+    "implies": [
+      {
+        "id": "e2e_testing",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "junit",
+    "name": "JUnit",
+    "category": "testing",
+    "aliases": [
+      "junit",
+      "junit 5"
+    ],
+    "related": [
+      {
+        "id": "java",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "java",
+        "weight": 0.9
+      },
+      {
+        "id": "unit_testing",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "unit_testing",
+    "name": "Unit Testing",
+    "category": "testing",
+    "aliases": [
+      "unit testing",
+      "unit tests"
+    ],
+    "related": [
+      {
+        "id": "tdd",
+        "weight": 0.85
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "integration_testing",
+    "name": "Integration Testing",
+    "category": "testing",
+    "aliases": [
+      "integration testing",
+      "integration tests"
+    ],
+    "related": [
+      {
+        "id": "unit_testing",
+        "weight": 0.85
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "e2e_testing",
+    "name": "End-to-End Testing",
+    "category": "testing",
+    "aliases": [
+      "end-to-end testing",
+      "e2e testing",
+      "e2e"
+    ],
+    "related": [
+      {
+        "id": "playwright",
+        "weight": 0.85
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "tdd",
+    "name": "Test-Driven Development (TDD)",
+    "category": "testing",
+    "aliases": [
+      "tdd",
+      "test-driven development"
+    ],
+    "related": [
+      {
+        "id": "unit_testing",
+        "weight": 0.9
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "bdd",
+    "name": "Behavior-Driven Development (BDD)",
+    "category": "testing",
+    "aliases": [
+      "bdd",
+      "behavior-driven development",
+      "cucumber"
+    ],
+    "related": [
+      {
+        "id": "tdd",
+        "weight": 0.85
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "performance_testing",
+    "name": "Performance Testing",
+    "category": "testing",
+    "aliases": [
+      "performance testing",
+      "load testing",
+      "stress testing",
+      "k6",
+      "jmeter",
+      "locust"
+    ],
+    "related": [
+      {
+        "id": "qa",
+        "weight": 0.85
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "mocking",
+    "name": "Mocking & Test Fixtures",
+    "category": "testing",
+    "aliases": [
+      "mocking",
+      "stubs",
+      "spies",
+      "unittest.mock"
+    ],
+    "related": [
+      {
+        "id": "unit_testing",
+        "weight": 0.9
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "api_testing",
+    "name": "API Testing",
+    "category": "testing",
+    "aliases": [
+      "api testing",
+      "postman",
+      "newman",
+      "rest-assured"
+    ],
+    "related": [
+      {
+        "id": "rest_api",
+        "weight": 0.9
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "accessibility_testing",
+    "name": "Accessibility Testing",
+    "category": "testing",
+    "aliases": [
+      "accessibility testing",
+      "axe-core",
+      "a11y testing"
+    ],
+    "related": [
+      {
+        "id": "accessibility",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "accessibility",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "regression_testing",
+    "name": "Regression Testing",
+    "category": "testing",
+    "aliases": [
+      "regression testing",
+      "regression suite"
+    ],
+    "related": [
+      {
+        "id": "qa",
+        "weight": 0.9
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "qa",
+    "name": "Quality Assurance (QA)",
+    "category": "testing",
+    "aliases": [
+      "qa",
+      "quality assurance",
+      "software testing",
+      "sdet"
+    ],
+    "related": [
+      {
+        "id": "test_automation",
+        "weight": 0.9
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "test_automation",
+    "name": "Test Automation",
+    "category": "testing",
+    "aliases": [
+      "test automation",
+      "automated testing"
+    ],
+    "related": [
+      {
+        "id": "qa",
+        "weight": 0.95
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "code_coverage",
+    "name": "Code Coverage",
+    "category": "testing",
+    "aliases": [
+      "code coverage",
+      "coverage.py",
+      "istanbul",
+      "jacoco"
+    ],
+    "related": [
+      {
+        "id": "unit_testing",
+        "weight": 0.85
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "owasp",
+    "name": "OWASP Top 10",
+    "category": "security",
+    "aliases": [
+      "owasp",
+      "owasp top 10",
+      "web security"
+    ],
+    "related": [
+      {
+        "id": "application_security",
+        "weight": 0.95
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "penetration_testing",
+    "name": "Penetration Testing",
+    "category": "security",
+    "aliases": [
+      "penetration testing",
+      "pen testing",
+      "ethical hacking"
+    ],
+    "related": [
+      {
+        "id": "cybersecurity",
+        "weight": 0.9
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "cybersecurity",
+    "name": "Cybersecurity",
+    "category": "security",
+    "aliases": [
+      "cybersecurity",
+      "information security",
+      "infosec"
+    ],
+    "related": [
+      {
+        "id": "network_security",
+        "weight": 0.85
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "vulnerability_assessment",
+    "name": "Vulnerability Assessment",
+    "category": "security",
+    "aliases": [
+      "vulnerability assessment",
+      "vulnerability scanning",
+      "cve"
+    ],
+    "related": [
+      {
+        "id": "cybersecurity",
+        "weight": 0.9
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "cryptography",
+    "name": "Cryptography & Encryption",
+    "category": "security",
+    "aliases": [
+      "cryptography",
+      "encryption",
+      "tls",
+      "ssl",
+      "aes",
+      "rsa"
+    ],
+    "related": [
+      {
+        "id": "cybersecurity",
+        "weight": 0.85
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "oauth",
+    "name": "OAuth 2.0 & OpenID Connect",
+    "category": "security",
+    "aliases": [
+      "oauth",
+      "oauth 2.0",
+      "oauth2",
+      "oidc",
+      "openid connect"
+    ],
+    "related": [
+      {
+        "id": "authentication",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "authentication",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "jwt",
+    "name": "JSON Web Tokens (JWT)",
+    "category": "security",
+    "aliases": [
+      "jwt",
+      "json web token"
+    ],
+    "related": [
+      {
+        "id": "authentication",
+        "weight": 0.9
+      }
+    ],
+    "implies": [
+      {
+        "id": "authentication",
+        "weight": 0.85
+      }
+    ]
+  },
+  {
+    "id": "authentication",
+    "name": "Authentication & Authorization",
+    "category": "security",
+    "aliases": [
+      "authentication",
+      "authn",
+      "authorization",
+      "authz",
+      "sso"
+    ],
+    "related": [
+      {
+        "id": "rbac",
+        "weight": 0.9
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "rbac",
+    "name": "Role-Based Access Control (RBAC)",
+    "category": "security",
+    "aliases": [
+      "rbac",
+      "role-based access control",
+      "permissions"
+    ],
+    "related": [
+      {
+        "id": "authentication",
+        "weight": 0.9
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "network_security",
+    "name": "Network Security",
+    "category": "security",
+    "aliases": [
+      "network security",
+      "firewall",
+      "ids",
+      "ips",
+      "vpn"
+    ],
+    "related": [
+      {
+        "id": "cybersecurity",
+        "weight": 0.9
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "siem",
+    "name": "SIEM Tools",
+    "category": "security",
+    "aliases": [
+      "siem",
+      "splunk",
+      "sentinel",
+      "qradar"
+    ],
+    "related": [
+      {
+        "id": "soc",
+        "weight": 0.9
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "soc",
+    "name": "Security Operations Center (SOC)",
+    "category": "security",
+    "aliases": [
+      "soc",
+      "soc analyst",
+      "incident response"
+    ],
+    "related": [
+      {
+        "id": "siem",
+        "weight": 0.9
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "threat_modeling",
+    "name": "Threat Modeling",
+    "category": "security",
+    "aliases": [
+      "threat modeling",
+      "stride"
+    ],
+    "related": [
+      {
+        "id": "application_security",
+        "weight": 0.9
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "application_security",
+    "name": "Application Security (AppSec)",
+    "category": "security",
+    "aliases": [
+      "appsec",
+      "application security",
+      "sast",
+      "dast"
+    ],
+    "related": [
+      {
+        "id": "owasp",
+        "weight": 0.95
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "soc2",
+    "name": "SOC 2 Compliance",
+    "category": "security",
+    "aliases": [
+      "soc 2",
+      "soc2",
+      "iso 27001",
+      "gdpr",
+      "hipaa",
+      "compliance"
+    ],
+    "related": [
+      {
+        "id": "cybersecurity",
+        "weight": 0.8
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "devsecops",
+    "name": "DevSecOps",
+    "category": "security",
+    "aliases": [
+      "devsecops"
+    ],
+    "related": [
+      {
+        "id": "devops",
+        "weight": 0.9
+      },
+      {
+        "id": "application_security",
+        "weight": 0.9
+      }
+    ],
+    "implies": [
+      {
+        "id": "devops",
+        "weight": 0.85
+      }
+    ]
+  },
+  {
+    "id": "zero_trust",
+    "name": "Zero Trust Architecture",
+    "category": "security",
+    "aliases": [
+      "zero trust"
+    ],
+    "related": [
+      {
+        "id": "network_security",
+        "weight": 0.85
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "malware_analysis",
+    "name": "Malware Analysis",
+    "category": "security",
+    "aliases": [
+      "malware analysis",
+      "reverse engineering"
+    ],
+    "related": [
+      {
+        "id": "cybersecurity",
+        "weight": 0.85
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "wireshark",
+    "name": "Wireshark",
+    "category": "security",
+    "aliases": [
+      "wireshark",
+      "packet analysis",
+      "tcpdump"
+    ],
+    "related": [
+      {
+        "id": "network_security",
+        "weight": 0.9
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "burp_suite",
+    "name": "Burp Suite",
+    "category": "security",
+    "aliases": [
+      "burp suite",
+      "burpsuite"
+    ],
+    "related": [
+      {
+        "id": "penetration_testing",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "penetration_testing",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "figma",
+    "name": "Figma",
+    "category": "design",
+    "aliases": [
+      "figma"
+    ],
+    "related": [
+      {
+        "id": "ui_design",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "ui_design",
+        "weight": 0.85
+      }
+    ]
+  },
+  {
+    "id": "ui_design",
+    "name": "UI Design",
+    "category": "design",
+    "aliases": [
+      "ui design",
+      "user interface design",
+      "visual design"
+    ],
+    "related": [
+      {
+        "id": "ux_design",
+        "weight": 0.9
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "ux_design",
+    "name": "UX Design & Research",
+    "category": "design",
+    "aliases": [
+      "ux design",
+      "user experience",
+      "ux research",
+      "user research"
+    ],
+    "related": [
+      {
+        "id": "ui_design",
+        "weight": 0.9
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "wireframing",
+    "name": "Wireframing & Prototyping",
+    "category": "design",
+    "aliases": [
+      "wireframing",
+      "prototyping",
+      "wireframes",
+      "mockups"
+    ],
+    "related": [
+      {
+        "id": "figma",
+        "weight": 0.9
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "design_systems",
+    "name": "Design Systems",
+    "category": "design",
+    "aliases": [
+      "design systems",
+      "component libraries",
+      "design tokens"
+    ],
+    "related": [
+      {
+        "id": "ui_design",
+        "weight": 0.9
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "responsive_design",
+    "name": "Responsive Web Design",
+    "category": "design",
+    "aliases": [
+      "responsive design",
+      "mobile-first",
+      "responsive layout"
+    ],
+    "related": [
+      {
+        "id": "css",
+        "weight": 0.9
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "accessibility",
+    "name": "Web Accessibility (WCAG / a11y)",
+    "category": "design",
+    "aliases": [
+      "accessibility",
+      "a11y",
+      "wcag",
+      "aria"
+    ],
+    "related": [
+      {
+        "id": "html",
+        "weight": 0.85
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "user_journey_mapping",
+    "name": "User Journey Mapping",
+    "category": "design",
+    "aliases": [
+      "user journey",
+      "user flows",
+      "journey mapping"
+    ],
+    "related": [
+      {
+        "id": "ux_design",
+        "weight": 0.9
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "information_architecture",
+    "name": "Information Architecture",
+    "category": "design",
+    "aliases": [
+      "information architecture",
+      "sitemaps"
+    ],
+    "related": [
+      {
+        "id": "ux_design",
+        "weight": 0.85
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "adobe_xd",
+    "name": "Adobe XD",
+    "category": "design",
+    "aliases": [
+      "adobe xd",
+      "xd"
+    ],
+    "related": [
+      {
+        "id": "figma",
+        "weight": 0.8
+      }
+    ],
+    "implies": [
+      {
+        "id": "ui_design",
+        "weight": 0.8
+      }
+    ]
+  },
+  {
+    "id": "sketch",
+    "name": "Sketch",
+    "category": "design",
+    "aliases": [
+      "sketch app"
+    ],
+    "related": [
+      {
+        "id": "figma",
+        "weight": 0.8
+      }
+    ],
+    "implies": [
+      {
+        "id": "ui_design",
+        "weight": 0.8
+      }
+    ]
+  },
+  {
+    "id": "usability_testing",
+    "name": "Usability Testing",
+    "category": "design",
+    "aliases": [
+      "usability testing",
+      "user testing"
+    ],
+    "related": [
+      {
+        "id": "ux_design",
+        "weight": 0.9
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "interaction_design",
+    "name": "Interaction Design (IxD)",
+    "category": "design",
+    "aliases": [
+      "interaction design",
+      "ixd",
+      "micro-interactions"
+    ],
+    "related": [
+      {
+        "id": "ui_design",
+        "weight": 0.9
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "typography",
+    "name": "Typography & Layout",
+    "category": "design",
+    "aliases": [
+      "typography",
+      "editorial layout"
+    ],
+    "related": [
+      {
+        "id": "ui_design",
+        "weight": 0.85
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "webgl",
+    "name": "WebGL / 3D Graphics",
+    "category": "design",
+    "aliases": [
+      "webgl",
+      "webgl2",
+      "glsl",
+      "shaders"
+    ],
+    "related": [
+      {
+        "id": "threejs",
+        "weight": 0.9
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "google_analytics",
+    "name": "Google Analytics",
+    "category": "analytics",
+    "aliases": [
+      "google analytics",
+      "ga4",
+      "universal analytics"
+    ],
+    "related": [
+      {
+        "id": "web_analytics",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "web_analytics",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "tableau",
+    "name": "Tableau",
+    "category": "analytics",
+    "aliases": [
+      "tableau",
+      "tableau desktop"
+    ],
+    "related": [
+      {
+        "id": "bi_tools",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "bi_tools",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "power_bi",
+    "name": "Power BI",
+    "category": "analytics",
+    "aliases": [
+      "power bi",
+      "powerbi",
+      "dax"
+    ],
+    "related": [
+      {
+        "id": "bi_tools",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "bi_tools",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "mixpanel",
+    "name": "Mixpanel",
+    "category": "analytics",
+    "aliases": [
+      "mixpanel"
+    ],
+    "related": [
+      {
+        "id": "product_analytics",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "product_analytics",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "amplitude",
+    "name": "Amplitude",
+    "category": "analytics",
+    "aliases": [
+      "amplitude"
+    ],
+    "related": [
+      {
+        "id": "product_analytics",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "product_analytics",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "looker",
+    "name": "Looker",
+    "category": "analytics",
+    "aliases": [
+      "looker",
+      "lookml"
+    ],
+    "related": [
+      {
+        "id": "bi_tools",
+        "weight": 0.9
+      }
+    ],
+    "implies": [
+      {
+        "id": "bi_tools",
+        "weight": 0.85
+      }
+    ]
+  },
+  {
+    "id": "ab_testing",
+    "name": "A/B Testing & Experimentation",
+    "category": "analytics",
+    "aliases": [
+      "a/b testing",
+      "ab testing",
+      "split testing",
+      "hypothesis validation"
+    ],
+    "related": [
+      {
+        "id": "product_analytics",
+        "weight": 0.9
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "cohort_analysis",
+    "name": "Cohort Analysis",
+    "category": "analytics",
+    "aliases": [
+      "cohort analysis",
+      "retention analysis"
+    ],
+    "related": [
+      {
+        "id": "product_analytics",
+        "weight": 0.9
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "bi_tools",
+    "name": "Business Intelligence (BI)",
+    "category": "analytics",
+    "aliases": [
+      "business intelligence",
+      "bi",
+      "bi reporting"
+    ],
+    "related": [
+      {
+        "id": "sql",
+        "weight": 0.85
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "data_storytelling",
+    "name": "Data Storytelling",
+    "category": "analytics",
+    "aliases": [
+      "data storytelling",
+      "executive presentation"
+    ],
+    "related": [
+      {
+        "id": "bi_tools",
+        "weight": 0.85
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "kpi_tracking",
+    "name": "KPI Tracking & Metrics",
+    "category": "analytics",
+    "aliases": [
+      "kpi tracking",
+      "metrics definition",
+      "okrs"
+    ],
+    "related": [
+      {
+        "id": "bi_tools",
+        "weight": 0.85
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "excel",
+    "name": "Microsoft Excel (Advanced)",
+    "category": "analytics",
+    "aliases": [
+      "excel",
+      "microsoft excel",
+      "vlookup",
+      "xlookup",
+      "pivot tables"
+    ],
+    "related": [
+      {
+        "id": "data_analysis",
+        "weight": 0.8
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "funnel_analysis",
+    "name": "Funnel Analysis",
+    "category": "analytics",
+    "aliases": [
+      "funnel analysis",
+      "conversion rate optimization",
+      "cro"
+    ],
+    "related": [
+      {
+        "id": "product_analytics",
+        "weight": 0.9
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "web_analytics",
+    "name": "Web Analytics",
+    "category": "analytics",
+    "aliases": [
+      "web analytics",
+      "google tag manager",
+      "gtm"
+    ],
+    "related": [
+      {
+        "id": "google_analytics",
+        "weight": 0.9
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "product_analytics",
+    "name": "Product Analytics",
+    "category": "analytics",
+    "aliases": [
+      "product analytics",
+      "churn analysis"
+    ],
+    "related": [
+      {
+        "id": "mixpanel",
+        "weight": 0.85
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "git",
+    "name": "Git Version Control",
+    "category": "practices",
+    "aliases": [
+      "git",
+      "github",
+      "gitlab",
+      "bitbucket",
+      "version control"
+    ],
+    "related": [
+      {
+        "id": "code_review",
+        "weight": 0.9
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "code_review",
+    "name": "Code Review & Pair Programming",
+    "category": "practices",
+    "aliases": [
+      "code review",
+      "peer review",
+      "pair programming"
+    ],
+    "related": [
+      {
+        "id": "git",
+        "weight": 0.9
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "agile",
+    "name": "Agile Methodology",
+    "category": "practices",
+    "aliases": [
+      "agile",
+      "agile development",
+      "standup",
+      "sprints"
+    ],
+    "related": [
+      {
+        "id": "scrum",
+        "weight": 0.95
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "scrum",
+    "name": "Scrum",
+    "category": "practices",
+    "aliases": [
+      "scrum",
+      "sprint planning",
+      "retrospectives"
+    ],
+    "related": [
+      {
+        "id": "agile",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "agile",
+        "weight": 0.95
+      }
+    ]
+  },
+  {
+    "id": "kanban",
+    "name": "Kanban",
+    "category": "practices",
+    "aliases": [
+      "kanban",
+      "wip limits"
+    ],
+    "related": [
+      {
+        "id": "agile",
+        "weight": 0.9
+      }
+    ],
+    "implies": [
+      {
+        "id": "agile",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "rest_api",
+    "name": "RESTful API Design",
+    "category": "practices",
+    "aliases": [
+      "rest",
+      "restful",
+      "rest api",
+      "rest apis",
+      "restful apis"
+    ],
+    "related": [
+      {
+        "id": "graphql",
+        "weight": 0.7
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "graphql",
+    "name": "GraphQL API Design",
+    "category": "practices",
+    "aliases": [
+      "graphql",
+      "apollo",
+      "apollo client"
+    ],
+    "related": [
+      {
+        "id": "rest_api",
+        "weight": 0.7
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "microservices",
+    "name": "Microservices Architecture",
+    "category": "practices",
+    "aliases": [
+      "microservices",
+      "microservice architecture",
+      "distributed systems"
+    ],
+    "related": [
+      {
+        "id": "docker",
+        "weight": 0.85
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "system_design",
+    "name": "System Design & Architecture",
+    "category": "practices",
+    "aliases": [
+      "system design",
+      "software architecture",
+      "scalability",
+      "high availability"
+    ],
+    "related": [
+      {
+        "id": "microservices",
+        "weight": 0.85
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "clean_code",
+    "name": "Clean Code & SOLID Principles",
+    "category": "practices",
+    "aliases": [
+      "clean code",
+      "solid principles",
+      "dry",
+      "kiss"
+    ],
+    "related": [
+      {
+        "id": "refactoring",
+        "weight": 0.9
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "refactoring",
+    "name": "Refactoring & Technical Debt Management",
+    "category": "practices",
+    "aliases": [
+      "refactoring",
+      "code refactoring",
+      "technical debt"
+    ],
+    "related": [
+      {
+        "id": "clean_code",
+        "weight": 0.9
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "oop",
+    "name": "Object-Oriented Programming (OOP)",
+    "category": "practices",
+    "aliases": [
+      "oop",
+      "object-oriented programming",
+      "design patterns"
+    ],
+    "related": [
+      {
+        "id": "clean_code",
+        "weight": 0.85
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "functional_programming",
+    "name": "Functional Programming (FP)",
+    "category": "practices",
+    "aliases": [
+      "functional programming",
+      "fp",
+      "immutability"
+    ],
+    "related": [
+      {
+        "id": "clean_code",
+        "weight": 0.8
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "event_driven",
+    "name": "Event-Driven Architecture",
+    "category": "practices",
+    "aliases": [
+      "event-driven architecture",
+      "event driven architecture",
+      "pub/sub",
+      "pub sub"
+    ],
+    "related": [
+      {
+        "id": "kafka",
+        "weight": 0.9
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "caching",
+    "name": "Caching Strategies",
+    "category": "practices",
+    "aliases": [
+      "caching",
+      "cache-aside",
+      "redis caching",
+      "memcached"
+    ],
+    "related": [
+      {
+        "id": "redis",
+        "weight": 0.9
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "database_indexing",
+    "name": "Database Indexing & Query Optimization",
+    "category": "practices",
+    "aliases": [
+      "indexing",
+      "query optimization",
+      "explain plan"
+    ],
+    "related": [
+      {
+        "id": "sql",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "sql",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "concurrency",
+    "name": "Asynchronous & Concurrent Programming",
+    "category": "practices",
+    "aliases": [
+      "async/await",
+      "concurrency",
+      "multithreading",
+      "parallel programming"
+    ],
+    "related": [
+      {
+        "id": "system_design",
+        "weight": 0.85
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "monorepo",
+    "name": "Monorepo Management",
+    "category": "practices",
+    "aliases": [
+      "monorepo",
+      "turborepo",
+      "nx"
+    ],
+    "related": [
+      {
+        "id": "devops",
+        "weight": 0.8
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "jira",
+    "name": "Jira & Issue Tracking",
+    "category": "practices",
+    "aliases": [
+      "jira",
+      "confluence",
+      "issue tracking"
+    ],
+    "related": [
+      {
+        "id": "agile",
+        "weight": 0.9
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "domain_driven_design",
+    "name": "Domain-Driven Design (DDD)",
+    "category": "practices",
+    "aliases": [
+      "domain-driven design",
+      "ddd",
+      "bounded contexts"
+    ],
+    "related": [
+      {
+        "id": "system_design",
+        "weight": 0.9
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "continuous_deployment",
+    "name": "Continuous Deployment",
+    "category": "practices",
+    "aliases": [
+      "continuous deployment",
+      "feature flags",
+      "canary deployments"
+    ],
+    "related": [
+      {
+        "id": "cicd",
+        "weight": 0.95
+      }
+    ],
+    "implies": [
+      {
+        "id": "cicd",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "vite",
+    "name": "Vite Build Tool",
+    "category": "practices",
+    "aliases": [
+      "vite",
+      "vitejs"
+    ],
+    "related": [
+      {
+        "id": "webpack",
+        "weight": 0.8
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "webpack",
+    "name": "Webpack",
+    "category": "practices",
+    "aliases": [
+      "webpack"
+    ],
+    "related": [
+      {
+        "id": "vite",
+        "weight": 0.8
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "mobile_dev",
+    "name": "Mobile App Development",
+    "category": "practices",
+    "aliases": [
+      "mobile development",
+      "mobile app development"
+    ],
+    "related": [
+      {
+        "id": "flutter",
+        "weight": 0.85
+      }
+    ],
+    "implies": []
+  },
+  {
+    "id": "nosql",
+    "name": "NoSQL Database Concepts",
+    "category": "practices",
+    "aliases": [
+      "nosql",
+      "non-relational database",
+      "document store"
+    ],
+    "related": [
+      {
+        "id": "mongodb",
+        "weight": 0.9
+      }
+    ],
+    "implies": []
+  }
+]

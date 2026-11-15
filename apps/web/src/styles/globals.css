@@ -1,0 +1,32 @@
+/* Hallmark · shape: 05 · Workbench · genre: modern-minimal · theme: Console (by request) · redesign: full
+ * hero: Stage · nav: Edge-aligned masthead · footer: Monolithic · imagery: none · signature: 2D constellation hero + live dropzone workbench · console: 5-part score composition + hairline spec sheet
+ * axes: dark/grotesk-sans/chromatic-amber · posture: restrained · contrast: pass · fold: pass · v2.0.0 */
+/* Hallmark · pre-emit critique: P5 H4 E5 S5 R5 V4 · weakest: H, mobile viewport fold had dropzone pushed down; brought dropzone and target role above the fold */
+@import "tailwindcss";
+@import "./tokens.css";
+@import "./base.css";
+
+/* Stepped solid surfaces (no blurry glassmorphism) */
+.glass-panel,
+.panel {
+  background-color: var(--color-paper-2);
+  color: var(--color-ink);
+  border: 1px solid var(--color-rule);
+}
+
+.glass-panel-subtle,
+.panel-subtle {
+  background-color: var(--color-paper-3);
+  color: var(--color-ink);
+  border: 1px solid var(--color-rule);
+}
+
+/* Instant Press Feedback */
+.press-scale {
+  transition-property: transform, opacity;
+  transition-duration: var(--dur-micro);
+  transition-timing-function: var(--ease-out);
+}
+.press-scale:active {
+  transform: scale(0.98);
+}

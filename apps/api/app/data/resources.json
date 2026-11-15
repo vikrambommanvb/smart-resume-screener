@@ -1,0 +1,3197 @@
+[
+  {
+    "id": "python-docs-tutorial",
+    "type": "doc",
+    "title": "The Python Tutorial",
+    "platform": "Python Software Foundation",
+    "url": "https://docs.python.org/3/tutorial/",
+    "skill_ids": [
+      "python",
+      "clean_code"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 8.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "cs50-python",
+    "type": "course",
+    "title": "CS50P: CS50's Introduction to Programming with Python",
+    "platform": "Harvard CS50",
+    "url": "https://cs50.harvard.edu/python/",
+    "skill_ids": [
+      "python",
+      "unit_testing"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 30.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "fcc-scientific-computing-python",
+    "type": "course",
+    "title": "Scientific Computing with Python Certification",
+    "platform": "freeCodeCamp",
+    "url": "https://www.freecodecamp.org/learn/scientific-computing-with-python/",
+    "skill_ids": [
+      "python"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 40.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "kaggle-python",
+    "type": "tutorial",
+    "title": "Learn Python",
+    "platform": "Kaggle Learn",
+    "url": "https://www.kaggle.com/learn/python",
+    "skill_ids": [
+      "python"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 5.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "pandas-official-getting-started",
+    "type": "doc",
+    "title": "Getting Started with Pandas",
+    "platform": "Pandas Docs",
+    "url": "https://pandas.pydata.org/docs/getting_started/index.html",
+    "skill_ids": [
+      "pandas",
+      "data_analysis"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 4.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "kaggle-pandas",
+    "type": "tutorial",
+    "title": "Pandas Micro-Course",
+    "platform": "Kaggle Learn",
+    "url": "https://www.kaggle.com/learn/pandas",
+    "skill_ids": [
+      "pandas",
+      "data_analysis"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 4.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "numpy-quickstart",
+    "type": "doc",
+    "title": "NumPy: The Absolute Basics for Beginners",
+    "platform": "NumPy Docs",
+    "url": "https://numpy.org/doc/stable/user/absolute_beginners.html",
+    "skill_ids": [
+      "numpy",
+      "data_analysis"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 3.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "kaggle-data-vis",
+    "type": "tutorial",
+    "title": "Data Visualization with Seaborn",
+    "platform": "Kaggle Learn",
+    "url": "https://www.kaggle.com/learn/data-visualization",
+    "skill_ids": [
+      "data_visualization",
+      "data_analysis"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 4.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "fcc-data-analysis-python",
+    "type": "course",
+    "title": "Data Analysis with Python Certification",
+    "platform": "freeCodeCamp",
+    "url": "https://www.freecodecamp.org/learn/data-analysis-with-python/",
+    "skill_ids": [
+      "data_analysis",
+      "pandas",
+      "numpy"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 50.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "google-data-analytics-cert",
+    "type": "course",
+    "title": "Google Data Analytics Professional Certificate",
+    "platform": "Coursera",
+    "url": "https://www.coursera.org/professional-certificates/google-data-analytics",
+    "skill_ids": [
+      "data_analysis",
+      "sql",
+      "excel",
+      "tableau",
+      "data_storytelling"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 120.0,
+    "free": false,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "excel-microsoft-training",
+    "type": "tutorial",
+    "title": "Excel Video Training",
+    "platform": "Microsoft Learn",
+    "url": "https://support.microsoft.com/en-us/excel",
+    "skill_ids": [
+      "excel",
+      "data_analysis"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 8.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "power-bi-microsoft-learn",
+    "type": "course",
+    "title": "Get Started with Power BI Desktop",
+    "platform": "Microsoft Learn",
+    "url": "https://learn.microsoft.com/training/paths/get-started-power-bi/",
+    "skill_ids": [
+      "power_bi",
+      "bi_tools",
+      "data_visualization"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 6.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "tableau-free-training",
+    "type": "video",
+    "title": "Tableau Free Training Videos",
+    "platform": "Tableau",
+    "url": "https://www.tableau.com/learn/training",
+    "skill_ids": [
+      "tableau",
+      "bi_tools",
+      "data_visualization"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 10.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "khan-statistics-prob",
+    "type": "course",
+    "title": "Statistics and Probability",
+    "platform": "Khan Academy",
+    "url": "https://www.khanacademy.org/math/statistics-probability",
+    "skill_ids": [
+      "statistics",
+      "data_analysis",
+      "ab_testing"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 25.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "storytelling-with-data-book",
+    "type": "doc",
+    "title": "Storytelling with Data Guide",
+    "platform": "Storytelling with Data",
+    "url": "https://www.storytellingwithdata.com/chart-guide",
+    "skill_ids": [
+      "data_storytelling",
+      "data_visualization",
+      "kpi_tracking"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 3.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "cs50-sql",
+    "type": "course",
+    "title": "CS50's Introduction to Databases with SQL",
+    "platform": "Harvard CS50",
+    "url": "https://cs50.harvard.edu/sql/",
+    "skill_ids": [
+      "sql",
+      "postgresql"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 25.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "kaggle-intro-sql",
+    "type": "tutorial",
+    "title": "Intro to SQL",
+    "platform": "Kaggle Learn",
+    "url": "https://www.kaggle.com/learn/intro-to-sql",
+    "skill_ids": [
+      "sql"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 3.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "kaggle-advanced-sql",
+    "type": "tutorial",
+    "title": "Advanced SQL",
+    "platform": "Kaggle Learn",
+    "url": "https://www.kaggle.com/learn/advanced-sql",
+    "skill_ids": [
+      "sql"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 4.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "fcc-relational-database",
+    "type": "course",
+    "title": "Relational Database Certification",
+    "platform": "freeCodeCamp",
+    "url": "https://www.freecodecamp.org/learn/relational-database/",
+    "skill_ids": [
+      "sql",
+      "postgresql",
+      "bash",
+      "git"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 60.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "postgresql-docs-tutorial",
+    "type": "doc",
+    "title": "PostgreSQL Tutorial",
+    "platform": "PostgreSQL Official Docs",
+    "url": "https://www.postgresql.org/docs/current/tutorial.html",
+    "skill_ids": [
+      "postgresql",
+      "sql"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 6.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "redis-university-ru101",
+    "type": "course",
+    "title": "Introduction to Redis Data Structures",
+    "platform": "Redis University",
+    "url": "https://university.redis.io/courses/ru101/",
+    "skill_ids": [
+      "redis"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 6.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "sqlalchemy-unified-tutorial",
+    "type": "doc",
+    "title": "SQLAlchemy 2.0 Unified Tutorial",
+    "platform": "SQLAlchemy Docs",
+    "url": "https://docs.sqlalchemy.org/en/20/tutorial/index.html",
+    "skill_ids": [
+      "sqlalchemy",
+      "python",
+      "sql"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 6.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "mdn-html-basics",
+    "type": "doc",
+    "title": "HTML: Structuring the Web",
+    "platform": "MDN Web Docs",
+    "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content",
+    "skill_ids": [
+      "html",
+      "responsive_design"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 12.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "mdn-css-first-steps",
+    "type": "doc",
+    "title": "CSS: Styling the Web",
+    "platform": "MDN Web Docs",
+    "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics",
+    "skill_ids": [
+      "css",
+      "responsive_design"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 15.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "fcc-responsive-web-design",
+    "type": "course",
+    "title": "Responsive Web Design Certification",
+    "platform": "freeCodeCamp",
+    "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/",
+    "skill_ids": [
+      "html",
+      "css",
+      "responsive_design",
+      "accessibility"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 40.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "mdn-javascript-basics",
+    "type": "doc",
+    "title": "JavaScript Basics",
+    "platform": "MDN Web Docs",
+    "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting",
+    "skill_ids": [
+      "javascript"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 18.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "fcc-javascript-v8",
+    "type": "course",
+    "title": "JavaScript Algorithms and Data Structures",
+    "platform": "freeCodeCamp",
+    "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/",
+    "skill_ids": [
+      "javascript"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 50.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "typescript-handbook",
+    "type": "doc",
+    "title": "The TypeScript Handbook",
+    "platform": "TypeScript Official Docs",
+    "url": "https://www.typescriptlang.org/docs/handbook/intro.html",
+    "skill_ids": [
+      "typescript",
+      "javascript"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 10.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "ms-learn-typescript",
+    "type": "course",
+    "title": "Build JavaScript Applications with TypeScript",
+    "platform": "Microsoft Learn",
+    "url": "https://learn.microsoft.com/training/paths/build-javascript-applications-typescript/",
+    "skill_ids": [
+      "typescript"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 4.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "react-dev-quickstart",
+    "type": "doc",
+    "title": "Quick Start React",
+    "platform": "React Docs",
+    "url": "https://react.dev/learn",
+    "skill_ids": [
+      "react",
+      "javascript",
+      "typescript"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 8.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "fcc-frontend-libraries",
+    "type": "course",
+    "title": "Front End Development Libraries",
+    "platform": "freeCodeCamp",
+    "url": "https://www.freecodecamp.org/learn/front-end-development-libraries/",
+    "skill_ids": [
+      "react",
+      "html",
+      "css"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 40.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "nextjs-learn",
+    "type": "course",
+    "title": "Learn Next.js App Router",
+    "platform": "Vercel / Next.js",
+    "url": "https://nextjs.org/learn",
+    "skill_ids": [
+      "nextjs",
+      "react",
+      "typescript"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 8.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "tailwind-docs",
+    "type": "doc",
+    "title": "Tailwind CSS Documentation",
+    "platform": "Tailwind CSS",
+    "url": "https://tailwindcss.com/docs/installation",
+    "skill_ids": [
+      "tailwind_css",
+      "css",
+      "responsive_design"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 4.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "web-dev-accessibility",
+    "type": "doc",
+    "title": "Learn Accessibility",
+    "platform": "web.dev by Google",
+    "url": "https://web.dev/learn/accessibility/",
+    "skill_ids": [
+      "accessibility",
+      "html"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 8.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "framer-motion-docs",
+    "type": "doc",
+    "title": "Framer Motion Documentation",
+    "platform": "Framer",
+    "url": "https://motion.dev/docs",
+    "skill_ids": [
+      "framer_motion",
+      "react"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 4.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "tanstack-query-quickstart",
+    "type": "doc",
+    "title": "TanStack Query Quick Start",
+    "platform": "TanStack",
+    "url": "https://tanstack.com/query/latest/docs/framework/react/quick-start",
+    "skill_ids": [
+      "tanstack_query",
+      "react"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 3.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "fastapi-tutorial",
+    "type": "doc",
+    "title": "FastAPI Tutorial - User Guide",
+    "platform": "FastAPI Official Docs",
+    "url": "https://fastapi.tiangolo.com/tutorial/",
+    "skill_ids": [
+      "fastapi",
+      "python",
+      "rest_api",
+      "pydantic"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 8.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "pydantic-docs",
+    "type": "doc",
+    "title": "Pydantic Documentation",
+    "platform": "Pydantic",
+    "url": "https://docs.pydantic.dev/latest/",
+    "skill_ids": [
+      "pydantic",
+      "python"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 3.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "nodejs-guides",
+    "type": "doc",
+    "title": "Introduction to Node.js",
+    "platform": "Node.js Official",
+    "url": "https://nodejs.org/en/learn/getting-started/introduction-to-nodejs",
+    "skill_ids": [
+      "nodejs",
+      "javascript"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 6.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "fcc-backend-apis",
+    "type": "course",
+    "title": "Back End Development and APIs Certification",
+    "platform": "freeCodeCamp",
+    "url": "https://www.freecodecamp.org/learn/back-end-development-and-apis/",
+    "skill_ids": [
+      "nodejs",
+      "rest_api"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 40.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "restfulapi-design-guide",
+    "type": "doc",
+    "title": "REST API Tutorial and Best Practices",
+    "platform": "RESTful API",
+    "url": "https://restfulapi.net/",
+    "skill_ids": [
+      "rest_api",
+      "microservices"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 4.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "microservices-martinfowler",
+    "type": "doc",
+    "title": "Microservices Guide by Martin Fowler",
+    "platform": "Martin Fowler",
+    "url": "https://martinfowler.com/microservices/",
+    "skill_ids": [
+      "microservices",
+      "system_design"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 5.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "system-design-primer",
+    "type": "tutorial",
+    "title": "The System Design Primer",
+    "platform": "GitHub Open Source",
+    "url": "https://github.com/donnemartin/system-design-primer",
+    "skill_ids": [
+      "system_design",
+      "microservices",
+      "concurrency"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 20.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "tour-of-go",
+    "type": "tutorial",
+    "title": "A Tour of Go",
+    "platform": "Go Official",
+    "url": "https://go.dev/tour/",
+    "skill_ids": [
+      "golang",
+      "concurrency"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 6.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "celery-first-steps",
+    "type": "doc",
+    "title": "First Steps with Celery",
+    "platform": "Celery Project Docs",
+    "url": "https://docs.celeryq.dev/en/stable/getting-started/first-steps-with-celery.html",
+    "skill_ids": [
+      "celery",
+      "python",
+      "redis"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 4.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "coursera-andrewng-ml",
+    "type": "course",
+    "title": "Machine Learning Specialization",
+    "platform": "Coursera & DeepLearning.AI",
+    "url": "https://www.coursera.org/specializations/machine-learning-introduction",
+    "skill_ids": [
+      "machine_learning",
+      "statistics",
+      "scikit_learn"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 60.0,
+    "free": false,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "kaggle-intro-ml",
+    "type": "tutorial",
+    "title": "Intro to Machine Learning",
+    "platform": "Kaggle Learn",
+    "url": "https://www.kaggle.com/learn/intro-to-machine-learning",
+    "skill_ids": [
+      "machine_learning",
+      "scikit_learn"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 3.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "kaggle-intermediate-ml",
+    "type": "tutorial",
+    "title": "Intermediate Machine Learning",
+    "platform": "Kaggle Learn",
+    "url": "https://www.kaggle.com/learn/intermediate-machine-learning",
+    "skill_ids": [
+      "machine_learning",
+      "feature_engineering",
+      "xgboost"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 4.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "kaggle-feature-engineering",
+    "type": "tutorial",
+    "title": "Feature Engineering",
+    "platform": "Kaggle Learn",
+    "url": "https://www.kaggle.com/learn/feature-engineering",
+    "skill_ids": [
+      "feature_engineering",
+      "machine_learning"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 5.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "scikit-learn-tutorial",
+    "type": "doc",
+    "title": "An Introduction to Machine Learning with Scikit-Learn",
+    "platform": "Scikit-Learn Docs",
+    "url": "https://scikit-learn.org/stable/getting_started.html",
+    "skill_ids": [
+      "scikit_learn",
+      "machine_learning"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 5.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "fastai-practical-deep-learning",
+    "type": "course",
+    "title": "Practical Deep Learning for Coders",
+    "platform": "fast.ai",
+    "url": "https://course.fast.ai/",
+    "skill_ids": [
+      "deep_learning",
+      "pytorch",
+      "machine_learning"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 30.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "pytorch-tutorials-basics",
+    "type": "doc",
+    "title": "PyTorch Learn the Basics Tutorial",
+    "platform": "PyTorch Docs",
+    "url": "https://pytorch.org/tutorials/beginner/basics/intro.html",
+    "skill_ids": [
+      "pytorch",
+      "deep_learning"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 6.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "coursera-andrewng-dl",
+    "type": "course",
+    "title": "Deep Learning Specialization",
+    "platform": "Coursera & DeepLearning.AI",
+    "url": "https://www.coursera.org/specializations/deep-learning",
+    "skill_ids": [
+      "deep_learning",
+      "machine_learning"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 80.0,
+    "free": false,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "google-intro-llms",
+    "type": "course",
+    "title": "Introduction to Large Language Models",
+    "platform": "Google Cloud Skills Boost",
+    "url": "https://www.cloudskillsboost.google/course_templates/539",
+    "skill_ids": [
+      "llm",
+      "deep_learning"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 1.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "google-generative-ai-fundamentals",
+    "type": "course",
+    "title": "Generative AI Fundamentals",
+    "platform": "Google Cloud Skills Boost",
+    "url": "https://www.cloudskillsboost.google/course_templates/556",
+    "skill_ids": [
+      "llm",
+      "embeddings",
+      "rag"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 3.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "mlflow-quickstart",
+    "type": "doc",
+    "title": "MLflow Quickstart Guide",
+    "platform": "MLflow Docs",
+    "url": "https://mlflow.org/docs/latest/getting-started/intro-quickstart/index.html",
+    "skill_ids": [
+      "mlflow",
+      "mlops"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 3.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "pinecone-rag-guide",
+    "type": "doc",
+    "title": "Retrieval Augmented Generation (RAG) Guide",
+    "platform": "Pinecone Learn",
+    "url": "https://www.pinecone.io/learn/retrieval-augmented-generation/",
+    "skill_ids": [
+      "rag",
+      "vector_databases",
+      "embeddings"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 2.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "git-scm-book",
+    "type": "doc",
+    "title": "Pro Git Book",
+    "platform": "Git Official",
+    "url": "https://git-scm.com/book/en/v2",
+    "skill_ids": [
+      "git",
+      "clean_code"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 12.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "ms-learn-git",
+    "type": "course",
+    "title": "Introduction to Version Control with Git",
+    "platform": "Microsoft Learn",
+    "url": "https://learn.microsoft.com/training/paths/intro-to-vc-git/",
+    "skill_ids": [
+      "git"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 3.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "github-actions-quickstart",
+    "type": "doc",
+    "title": "Quickstart for GitHub Actions",
+    "platform": "GitHub Docs",
+    "url": "https://docs.github.com/en/actions/quickstart",
+    "skill_ids": [
+      "github_actions",
+      "cicd",
+      "git"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 2.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "docker-get-started",
+    "type": "doc",
+    "title": "Docker Get Started Guide",
+    "platform": "Docker Docs",
+    "url": "https://docs.docker.com/get-started/",
+    "skill_ids": [
+      "docker",
+      "microservices"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 5.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "kubernetes-basics-tutorial",
+    "type": "tutorial",
+    "title": "Learn Kubernetes Basics",
+    "platform": "Kubernetes Official Docs",
+    "url": "https://kubernetes.io/docs/tutorials/kubernetes-basics/",
+    "skill_ids": [
+      "kubernetes",
+      "docker"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 6.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "helm-get-started",
+    "type": "doc",
+    "title": "Helm: Quickstart Guide",
+    "platform": "Helm Docs",
+    "url": "https://helm.sh/docs/intro/quickstart/",
+    "skill_ids": [
+      "helm",
+      "kubernetes"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 2.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "terraform-get-started-aws",
+    "type": "tutorial",
+    "title": "Get Started with Terraform on AWS",
+    "platform": "HashiCorp Developer",
+    "url": "https://developer.hashicorp.com/terraform/tutorials/aws-get-started",
+    "skill_ids": [
+      "terraform",
+      "aws"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 4.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "ansible-getting-started",
+    "type": "doc",
+    "title": "Getting Started with Ansible",
+    "platform": "Ansible Community Docs",
+    "url": "https://docs.ansible.com/ansible/latest/getting_started/index.html",
+    "skill_ids": [
+      "ansible",
+      "linux"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 4.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "edx-linuxfoundation-intro",
+    "type": "course",
+    "title": "Introduction to Linux",
+    "platform": "The Linux Foundation on edX",
+    "url": "https://www.edx.org/learn/linux/the-linux-foundation-introduction-to-linux",
+    "skill_ids": [
+      "linux",
+      "bash"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 40.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "bash-guide-beginners",
+    "type": "doc",
+    "title": "Bash Guide for Beginners",
+    "platform": "The Linux Documentation Project",
+    "url": "https://tldp.org/LDP/Bash-Beginners-Guide/html/",
+    "skill_ids": [
+      "bash",
+      "linux"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 10.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "aws-cloud-practitioner-essentials",
+    "type": "course",
+    "title": "AWS Cloud Practitioner Essentials",
+    "platform": "AWS Skill Builder",
+    "url": "https://explore.skillbuilder.aws/learn/course/external/view/elearning/134/aws-cloud-practitioner-essentials",
+    "skill_ids": [
+      "aws",
+      "cloud_computing"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 6.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "google-cloud-fundamentals",
+    "type": "course",
+    "title": "Google Cloud Fundamentals: Core Infrastructure",
+    "platform": "Google Cloud Skills Boost",
+    "url": "https://www.cloudskillsboost.google/course_templates/60",
+    "skill_ids": [
+      "gcp",
+      "cloud_computing"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 8.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "ms-learn-azure-fundamentals",
+    "type": "course",
+    "title": "Microsoft Azure Fundamentals (AZ-900)",
+    "platform": "Microsoft Learn",
+    "url": "https://learn.microsoft.com/training/paths/az-900-describe-cloud-concepts/",
+    "skill_ids": [
+      "azure",
+      "cloud_computing"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 5.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "prometheus-overview-docs",
+    "type": "doc",
+    "title": "Prometheus Overview and Getting Started",
+    "platform": "Prometheus Docs",
+    "url": "https://prometheus.io/docs/introduction/overview/",
+    "skill_ids": [
+      "prometheus"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 3.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "grafana-getting-started",
+    "type": "tutorial",
+    "title": "Getting Started with Grafana",
+    "platform": "Grafana Docs",
+    "url": "https://grafana.com/docs/grafana/latest/",
+    "skill_ids": [
+      "grafana",
+      "prometheus"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 2.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "pytest-official-getting-started",
+    "type": "doc",
+    "title": "Pytest Getting Started Guide",
+    "platform": "Pytest Docs",
+    "url": "https://docs.pytest.org/en/stable/getting-started.html",
+    "skill_ids": [
+      "pytest",
+      "unit_testing",
+      "test_automation"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 4.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "vitest-guide",
+    "type": "doc",
+    "title": "Vitest Getting Started",
+    "platform": "Vitest Docs",
+    "url": "https://vitest.dev/guide/",
+    "skill_ids": [
+      "vitest",
+      "unit_testing",
+      "typescript"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 3.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "cypress-docs-tutorial",
+    "type": "doc",
+    "title": "Cypress: End-to-End Testing Basics",
+    "platform": "Cypress Documentation",
+    "url": "https://docs.cypress.io/app/get-started/why-cypress",
+    "skill_ids": [
+      "cypress",
+      "e2e_testing",
+      "test_automation"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 5.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "fcc-quality-assurance",
+    "type": "course",
+    "title": "Quality Assurance Certification",
+    "platform": "freeCodeCamp",
+    "url": "https://www.freecodecamp.org/learn/quality-assurance/",
+    "skill_ids": [
+      "qa",
+      "unit_testing",
+      "test_automation",
+      "api_testing"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 40.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "cs50-cybersecurity",
+    "type": "course",
+    "title": "CS50's Introduction to Cybersecurity",
+    "platform": "Harvard CS50",
+    "url": "https://cs50.harvard.edu/cybersecurity/",
+    "skill_ids": [
+      "cybersecurity",
+      "network_security",
+      "cryptography"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 20.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "google-cybersecurity-cert",
+    "type": "course",
+    "title": "Google Cybersecurity Professional Certificate",
+    "platform": "Coursera",
+    "url": "https://www.coursera.org/professional-certificates/google-cybersecurity",
+    "skill_ids": [
+      "cybersecurity",
+      "network_security",
+      "siem",
+      "vulnerability_assessment"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 100.0,
+    "free": false,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "owasp-top-ten",
+    "type": "doc",
+    "title": "OWASP Top 10 Web Application Security Risks",
+    "platform": "OWASP Foundation",
+    "url": "https://owasp.org/www-project-top-ten/",
+    "skill_ids": [
+      "owasp",
+      "cybersecurity",
+      "vulnerability_assessment"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 6.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "fcc-information-security",
+    "type": "course",
+    "title": "Information Security Certification",
+    "platform": "freeCodeCamp",
+    "url": "https://www.freecodecamp.org/learn/information-security/",
+    "skill_ids": [
+      "cybersecurity",
+      "authentication",
+      "network_security"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 50.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "ms-learn-security-fundamentals",
+    "type": "course",
+    "title": "Security, Compliance, and Identity Fundamentals (SC-900)",
+    "platform": "Microsoft Learn",
+    "url": "https://learn.microsoft.com/training/paths/describe-concepts-of-security-compliance-identity/",
+    "skill_ids": [
+      "cybersecurity",
+      "authentication",
+      "network_security"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 4.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "figma-for-beginners",
+    "type": "tutorial",
+    "title": "Figma for Beginners",
+    "platform": "Figma Help Center",
+    "url": "https://help.figma.com/hc/en-us/categories/360002051613-Get-started",
+    "skill_ids": [
+      "figma",
+      "ui_design",
+      "wireframing"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 6.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "design-systems-guide",
+    "type": "doc",
+    "title": "Design Systems Handbook",
+    "platform": "DesignBetter.co",
+    "url": "https://www.designbetter.co/design-systems-handbook",
+    "skill_ids": [
+      "design_systems",
+      "ui_design"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 5.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "nngroup-ux-basics",
+    "type": "doc",
+    "title": "UX Basics Articles and Guidelines",
+    "platform": "Nielsen Norman Group",
+    "url": "https://www.nngroup.com/articles/definition-user-experience/",
+    "skill_ids": [
+      "ux_design",
+      "user_journey_mapping"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 4.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "android-developer-fundamentals",
+    "type": "course",
+    "title": "Android Basics with Compose",
+    "platform": "Android Developers",
+    "url": "https://developer.android.com/courses/android-basics-compose/course",
+    "skill_ids": [
+      "android",
+      "kotlin",
+      "mobile_dev"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 40.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "kotlin-hands-on",
+    "type": "tutorial",
+    "title": "Kotlin Tour: Hands-on Introduction",
+    "platform": "JetBrains Kotlin Docs",
+    "url": "https://kotlinlang.org/docs/kotlin-tour-welcome.html",
+    "skill_ids": [
+      "kotlin",
+      "mobile_dev"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 4.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "scrum-guide",
+    "type": "doc",
+    "title": "The 2020 Scrum Guide",
+    "platform": "Scrum Guides",
+    "url": "https://scrumguides.org/scrum-guide.html",
+    "skill_ids": [
+      "agile"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 2.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "atlassian-agile-coach",
+    "type": "tutorial",
+    "title": "The Agile Coach Tutorials",
+    "platform": "Atlassian",
+    "url": "https://www.atlassian.com/agile",
+    "skill_ids": [
+      "agile"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 5.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "django-official-tutorial",
+    "type": "doc",
+    "title": "Writing your first Django app",
+    "platform": "Django Project Docs",
+    "url": "https://docs.djangoproject.com/en/stable/intro/tutorial01/",
+    "skill_ids": [
+      "django",
+      "python"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 8.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "spring-boot-quickstart",
+    "type": "tutorial",
+    "title": "Building an Application with Spring Boot",
+    "platform": "Spring IO Guides",
+    "url": "https://spring.io/guides/gs/spring-boot/",
+    "skill_ids": [
+      "spring_boot",
+      "java",
+      "microservices"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 3.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "java-dev-tutorials",
+    "type": "doc",
+    "title": "The Java Tutorials",
+    "platform": "Oracle Docs",
+    "url": "https://docs.oracle.com/javase/tutorial/",
+    "skill_ids": [
+      "java"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 20.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "graphql-learn",
+    "type": "doc",
+    "title": "Introduction to GraphQL",
+    "platform": "GraphQL Official",
+    "url": "https://graphql.org/learn/",
+    "skill_ids": [
+      "graphql",
+      "rest_api"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 4.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "mongodb-university-intro",
+    "type": "course",
+    "title": "Introduction to MongoDB",
+    "platform": "MongoDB University",
+    "url": "https://learn.mongodb.com/learning-paths/introduction-to-mongodb",
+    "skill_ids": [
+      "mongodb",
+      "nosql"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 5.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "apache-kafka-quickstart",
+    "type": "doc",
+    "title": "Apache Kafka Quickstart",
+    "platform": "Apache Kafka Official",
+    "url": "https://kafka.apache.org/quickstart",
+    "skill_ids": [
+      "kafka",
+      "microservices"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 3.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "rabbitmq-tutorials-python",
+    "type": "tutorial",
+    "title": "RabbitMQ Tutorials: Python Pika",
+    "platform": "RabbitMQ Official",
+    "url": "https://www.rabbitmq.com/tutorials/tutorial-one-python.html",
+    "skill_ids": [
+      "microservices",
+      "microservices"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 3.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "rust-book",
+    "type": "doc",
+    "title": "The Rust Programming Language",
+    "platform": "Rust Official",
+    "url": "https://doc.rust-lang.org/book/",
+    "skill_ids": [
+      "rust",
+      "concurrency"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 20.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "flutter-get-started",
+    "type": "doc",
+    "title": "Flutter: Get Started",
+    "platform": "Flutter Docs",
+    "url": "https://docs.flutter.dev/get-started/install",
+    "skill_ids": [
+      "flutter",
+      "mobile_dev"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 6.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "react-native-tutorial",
+    "type": "doc",
+    "title": "React Native: Getting Started",
+    "platform": "React Native Docs",
+    "url": "https://reactnative.dev/docs/getting-started",
+    "skill_ids": [
+      "react_native",
+      "react",
+      "mobile_dev"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 6.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "spark-quick-start",
+    "type": "doc",
+    "title": "Apache Spark Quick Start",
+    "platform": "Apache Spark Docs",
+    "url": "https://spark.apache.org/docs/latest/quick-start.html",
+    "skill_ids": [
+      "spark",
+      "spark",
+      "data_analysis"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 4.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "snowflake-getting-started",
+    "type": "tutorial",
+    "title": "Getting Started with Snowflake",
+    "platform": "Snowflake Documentation",
+    "url": "https://docs.snowflake.com/en/user-guide-getting-started",
+    "skill_ids": [
+      "snowflake",
+      "sql",
+      "data_analysis"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 4.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "dbt-learn-quickstart",
+    "type": "tutorial",
+    "title": "Quickstart for dbt Core",
+    "platform": "dbt Docs",
+    "url": "https://docs.getdbt.com/docs/introduction",
+    "skill_ids": [
+      "dbt",
+      "sql",
+      "data_analysis"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 3.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "airflow-tutorial",
+    "type": "doc",
+    "title": "Apache Airflow Tutorial",
+    "platform": "Apache Airflow Docs",
+    "url": "https://airflow.apache.org/docs/apache-airflow/stable/tutorial/index.html",
+    "skill_ids": [
+      "airflow",
+      "python",
+      "mlops"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 4.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "playwright-getting-started",
+    "type": "doc",
+    "title": "Playwright: Getting Started",
+    "platform": "Playwright Docs",
+    "url": "https://playwright.dev/docs/intro",
+    "skill_ids": [
+      "playwright",
+      "e2e_testing",
+      "test_automation"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 4.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "selenium-overview",
+    "type": "doc",
+    "title": "Selenium WebDriver Getting Started",
+    "platform": "Selenium Official Docs",
+    "url": "https://www.selenium.dev/documentation/webdriver/getting_started/",
+    "skill_ids": [
+      "selenium",
+      "test_automation",
+      "qa"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 5.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "wireshark-user-guide",
+    "type": "doc",
+    "title": "Wireshark User's Guide",
+    "platform": "Wireshark Docs",
+    "url": "https://www.wireshark.org/docs/wsug_html_chunked/",
+    "skill_ids": [
+      "wireshark",
+      "network_security",
+      "cybersecurity"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 6.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "huggingface-nlp-course",
+    "type": "course",
+    "title": "Hugging Face NLP Course",
+    "platform": "Hugging Face",
+    "url": "https://huggingface.co/learn/nlp-course/chapter1/1",
+    "skill_ids": [
+      "nlp",
+      "deep_learning",
+      "embeddings",
+      "llm"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 20.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "opencv-python-tutorials",
+    "type": "doc",
+    "title": "OpenCV-Python Tutorials",
+    "platform": "OpenCV Docs",
+    "url": "https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html",
+    "skill_ids": [
+      "computer_vision",
+      "python"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 10.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "threejs-journey-basics",
+    "type": "tutorial",
+    "title": "Three.js Fundamentals",
+    "platform": "Three.js Documentation",
+    "url": "https://threejs.org/manual/#en/fundamentals",
+    "skill_ids": [
+      "threejs",
+      "javascript"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 6.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "graphql-apollo-tutorial",
+    "type": "tutorial",
+    "title": "Apollo GraphQL Tutorial",
+    "platform": "Apollo GraphQL",
+    "url": "https://www.apollographql.com/docs/react/get-started",
+    "skill_ids": [
+      "graphql",
+      "react"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 4.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "aws-lambda-getting-started",
+    "type": "doc",
+    "title": "Getting Started with AWS Lambda",
+    "platform": "AWS Docs",
+    "url": "https://docs.aws.amazon.com/lambda/latest/dg/getting-started.html",
+    "skill_ids": [
+      "aws_lambda",
+      "aws",
+      "cloud_computing"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 3.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "jest-getting-started",
+    "type": "doc",
+    "title": "Getting Started with Jest",
+    "platform": "Jest Docs",
+    "url": "https://jestjs.io/docs/getting-started",
+    "skill_ids": [
+      "jest",
+      "unit_testing",
+      "javascript"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 3.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "linux-journey",
+    "type": "tutorial",
+    "title": "Linux Journey: Grasshopper to Wiz",
+    "platform": "Linux Journey",
+    "url": "https://linuxjourney.com/",
+    "skill_ids": [
+      "linux",
+      "bash"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 8.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "git-branching-learn",
+    "type": "tutorial",
+    "title": "Learn Git Branching Interactive",
+    "platform": "LearnGitBranching",
+    "url": "https://learngitbranching.js.org/",
+    "skill_ids": [
+      "git"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 3.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "postman-api-testing",
+    "type": "doc",
+    "title": "Testing APIs with Postman",
+    "platform": "Postman Learning Center",
+    "url": "https://learning.postman.com/docs/writing-scripts/test-scripts/",
+    "skill_ids": [
+      "api_testing",
+      "api_testing",
+      "rest_api"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 4.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "jwt-introduction",
+    "type": "doc",
+    "title": "Introduction to JSON Web Tokens",
+    "platform": "JWT.io",
+    "url": "https://jwt.io/introduction",
+    "skill_ids": [
+      "jwt",
+      "authentication",
+      "cybersecurity"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 2.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "oauth2-simplified",
+    "type": "doc",
+    "title": "OAuth 2.0 Simplified",
+    "platform": "Aaron Parecki",
+    "url": "https://aaronparecki.com/oauth-2-simplified/",
+    "skill_ids": [
+      "oauth",
+      "authentication"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 3.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "github-actions-in-depth",
+    "type": "doc",
+    "title": "Understanding GitHub Actions Workflows",
+    "platform": "GitHub Docs",
+    "url": "https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions",
+    "skill_ids": [
+      "github_actions",
+      "cicd"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 3.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "linux-command-line-book",
+    "type": "doc",
+    "title": "The Linux Command Line by William Shotts",
+    "platform": "LinuxCommand.org",
+    "url": "https://linuxcommand.org/tlcl.php",
+    "skill_ids": [
+      "linux",
+      "bash"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 15.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "clean-code-principles",
+    "type": "doc",
+    "title": "Clean Code Concepts Adapted for Python",
+    "platform": "GitHub Open Source",
+    "url": "https://github.com/zedr/clean-code-python",
+    "skill_ids": [
+      "clean_code",
+      "python"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 4.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "refactoring-guru-design-patterns",
+    "type": "tutorial",
+    "title": "Design Patterns Explained",
+    "platform": "Refactoring Guru",
+    "url": "https://refactoring.guru/design-patterns",
+    "skill_ids": [
+      "clean_code",
+      "system_design"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 10.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "google-site-reliability-engineering",
+    "type": "doc",
+    "title": "Site Reliability Engineering (SRE) Book",
+    "platform": "Google SRE Books",
+    "url": "https://sre.google/sre-book/table-of-contents/",
+    "skill_ids": [
+      "cloud_computing",
+      "system_design",
+      "prometheus"
+    ],
+    "difficulty": "advanced",
+    "duration_hours": 25.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "cloud-architecture-center",
+    "type": "doc",
+    "title": "Google Cloud Architecture Framework",
+    "platform": "Google Cloud Docs",
+    "url": "https://cloud.google.com/architecture/framework",
+    "skill_ids": [
+      "gcp",
+      "cloud_computing",
+      "system_design"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 8.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "aws-well-architected",
+    "type": "doc",
+    "title": "AWS Well-Architected Framework",
+    "platform": "AWS Whitepapers",
+    "url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html",
+    "skill_ids": [
+      "aws",
+      "cloud_computing",
+      "system_design"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 8.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "kubernetes-production-best-practices",
+    "type": "doc",
+    "title": "Kubernetes Configuration Best Practices",
+    "platform": "Kubernetes Official Docs",
+    "url": "https://kubernetes.io/docs/concepts/configuration/overview/",
+    "skill_ids": [
+      "kubernetes",
+      "helm"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 3.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "web-dev-performance",
+    "type": "doc",
+    "title": "Web Performance Best Practices",
+    "platform": "web.dev by Google",
+    "url": "https://web.dev/learn/performance/",
+    "skill_ids": [
+      "responsive_design",
+      "javascript",
+      "html"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 6.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "regex-one-tutorial",
+    "type": "tutorial",
+    "title": "RegexOne: Learn Regular Expressions",
+    "platform": "RegexOne",
+    "url": "https://regexone.com/",
+    "skill_ids": [
+      "python",
+      "bash"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 2.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "kaggle-geospatial-analysis",
+    "type": "tutorial",
+    "title": "Geospatial Analysis",
+    "platform": "Kaggle Learn",
+    "url": "https://www.kaggle.com/learn/geospatial-analysis",
+    "skill_ids": [
+      "data_analysis",
+      "data_visualization"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 4.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "kaggle-machine-learning-explainability",
+    "type": "tutorial",
+    "title": "Machine Learning Explainability",
+    "platform": "Kaggle Learn",
+    "url": "https://www.kaggle.com/learn/machine-learning-explainability",
+    "skill_ids": [
+      "machine_learning",
+      "feature_engineering"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 4.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "cs50-ai-python",
+    "type": "course",
+    "title": "CS50's Introduction to Artificial Intelligence with Python",
+    "platform": "Harvard CS50",
+    "url": "https://cs50.harvard.edu/ai/",
+    "skill_ids": [
+      "machine_learning",
+      "python",
+      "deep_learning"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 35.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "cs50-web-programming",
+    "type": "course",
+    "title": "CS50's Web Programming with Python and JavaScript",
+    "platform": "Harvard CS50",
+    "url": "https://cs50.harvard.edu/web/",
+    "skill_ids": [
+      "python",
+      "javascript",
+      "sql",
+      "django"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 40.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "cs50x-computer-science",
+    "type": "course",
+    "title": "CS50x: Introduction to Computer Science",
+    "platform": "Harvard CS50",
+    "url": "https://cs50.harvard.edu/x/",
+    "skill_ids": [
+      "c",
+      "python",
+      "sql",
+      "html",
+      "css",
+      "javascript"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 60.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "c-programming-modern-approach",
+    "type": "doc",
+    "title": "C Programming Notes & Reference",
+    "platform": "cppreference.com",
+    "url": "https://en.cppreference.com/w/c",
+    "skill_ids": [
+      "c"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 15.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "cpp-reference-tutorial",
+    "type": "doc",
+    "title": "C++ Language Tutorial",
+    "platform": "cplusplus.com",
+    "url": "https://cplusplus.com/doc/tutorial/",
+    "skill_ids": [
+      "cpp"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 15.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "scikit-learn-supervised",
+    "type": "doc",
+    "title": "Supervised Learning User Guide",
+    "platform": "Scikit-Learn Docs",
+    "url": "https://scikit-learn.org/stable/supervised_learning.html",
+    "skill_ids": [
+      "scikit_learn",
+      "machine_learning"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 8.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "xgboost-documentation",
+    "type": "doc",
+    "title": "XGBoost Documentation and Tutorials",
+    "platform": "XGBoost Docs",
+    "url": "https://xgboost.readthedocs.io/en/stable/",
+    "skill_ids": [
+      "xgboost",
+      "machine_learning"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 4.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "pytorch-tensor-tutorial",
+    "type": "doc",
+    "title": "Tensors in PyTorch",
+    "platform": "PyTorch Docs",
+    "url": "https://pytorch.org/tutorials/beginner/blitz/tensor_tutorial.html",
+    "skill_ids": [
+      "pytorch",
+      "deep_learning"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 2.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "google-colab-intro",
+    "type": "tutorial",
+    "title": "Overview of Colaboratory Features",
+    "platform": "Google Colab",
+    "url": "https://colab.research.google.com/notebooks/intro.ipynb",
+    "skill_ids": [
+      "python",
+      "data_analysis",
+      "machine_learning"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 2.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "sqlite-tutorial",
+    "type": "tutorial",
+    "title": "SQLite Tutorial",
+    "platform": "SQLite Tutorial",
+    "url": "https://www.sqlitetutorial.net/",
+    "skill_ids": [
+      "sql",
+      "sqlite"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 5.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "mysql-tutorial-getting-started",
+    "type": "tutorial",
+    "title": "MySQL Tutorial for Beginners",
+    "platform": "MySQL Tutorial",
+    "url": "https://www.mysqltutorial.org/",
+    "skill_ids": [
+      "mysql",
+      "sql"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 6.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "redis-crash-course",
+    "type": "video",
+    "title": "Redis Crash Course",
+    "platform": "freeCodeCamp",
+    "url": "https://redis.io/docs/latest/develop/get-started/",
+    "skill_ids": [
+      "redis"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 2.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "elasticsearch-getting-started",
+    "type": "doc",
+    "title": "Elasticsearch: Getting Started",
+    "platform": "Elastic Docs",
+    "url": "https://www.elastic.co/guide/en/elasticsearch/reference/current/getting-started.html",
+    "skill_ids": [
+      "elasticsearch"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 4.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "graphql-howtographql",
+    "type": "tutorial",
+    "title": "The Fullstack Tutorial for GraphQL",
+    "platform": "How to GraphQL",
+    "url": "https://www.howtographql.com/",
+    "skill_ids": [
+      "graphql",
+      "react",
+      "nodejs"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 8.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "vuejs-guide",
+    "type": "doc",
+    "title": "Vue.js Quick Start",
+    "platform": "Vue.js Official Docs",
+    "url": "https://vuejs.org/guide/quick-start.html",
+    "skill_ids": [
+      "vue",
+      "javascript"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 6.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "angular-getting-started",
+    "type": "tutorial",
+    "title": "Getting Started with Angular",
+    "platform": "Angular Official Docs",
+    "url": "https://angular.dev/overview",
+    "skill_ids": [
+      "angular",
+      "typescript"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 8.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "sass-basics",
+    "type": "doc",
+    "title": "Sass Basics Guide",
+    "platform": "Sass Official",
+    "url": "https://sass-lang.com/guide/",
+    "skill_ids": [
+      "css",
+      "css"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 2.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "webpack-getting-started",
+    "type": "doc",
+    "title": "Getting Started with Webpack",
+    "platform": "Webpack Official Docs",
+    "url": "https://webpack.js.org/guides/getting-started/",
+    "skill_ids": [
+      "webpack",
+      "javascript"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 3.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "vite-getting-started",
+    "type": "doc",
+    "title": "Vite: Getting Started",
+    "platform": "Vite Official Docs",
+    "url": "https://vite.dev/guide/",
+    "skill_ids": [
+      "vite",
+      "javascript",
+      "typescript"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 2.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "nginx-beginner-guide",
+    "type": "doc",
+    "title": "NGINX Beginner's Guide",
+    "platform": "NGINX Docs",
+    "url": "https://nginx.org/en/docs/beginners_guide.html",
+    "skill_ids": [
+      "nginx",
+      "linux"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 3.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "ci-cd-martin-fowler",
+    "type": "doc",
+    "title": "Continuous Integration Guide",
+    "platform": "Martin Fowler",
+    "url": "https://martinfowler.com/articles/continuousIntegration.html",
+    "skill_ids": [
+      "cicd"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 3.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "azure-devops-docs",
+    "type": "doc",
+    "title": "Azure Pipelines Documentation",
+    "platform": "Microsoft Learn",
+    "url": "https://learn.microsoft.com/azure/devops/pipelines/",
+    "skill_ids": [
+      "azure",
+      "azure",
+      "cicd"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 5.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "gitlab-ci-quickstart",
+    "type": "doc",
+    "title": "Get Started with GitLab CI/CD",
+    "platform": "GitLab Docs",
+    "url": "https://docs.gitlab.com/ee/ci/quick_start/",
+    "skill_ids": [
+      "gitlab_ci",
+      "cicd"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 4.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "jenkins-user-handbook",
+    "type": "doc",
+    "title": "Jenkins User Handbook",
+    "platform": "Jenkins Official Docs",
+    "url": "https://www.jenkins.io/doc/book/",
+    "skill_ids": [
+      "jenkins",
+      "cicd"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 6.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "burp-suite-academy",
+    "type": "course",
+    "title": "Web Security Academy",
+    "platform": "PortSwigger",
+    "url": "https://portswigger.net/web-security/",
+    "skill_ids": [
+      "burp_suite",
+      "cybersecurity",
+      "vulnerability_assessment",
+      "owasp"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 40.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "metasploit-unleashed",
+    "type": "course",
+    "title": "Metasploit Unleashed Free Course",
+    "platform": "OffSec",
+    "url": "https://www.offsec.com/metasploit-unleashed/",
+    "skill_ids": [
+      "penetration_testing",
+      "cybersecurity"
+    ],
+    "difficulty": "advanced",
+    "duration_hours": 20.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "mitre-att-ck-framework",
+    "type": "doc",
+    "title": "MITRE ATT&CK Matrix for Enterprise",
+    "platform": "MITRE ATT&CK",
+    "url": "https://attack.mitre.org/matrices/enterprise/",
+    "skill_ids": [
+      "cybersecurity",
+      "cybersecurity",
+      "cybersecurity"
+    ],
+    "difficulty": "advanced",
+    "duration_hours": 10.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "splunk-free-training",
+    "type": "course",
+    "title": "Splunk Fundamentals 1 Free Course",
+    "platform": "Splunk",
+    "url": "https://www.splunk.com/en_us/training/free-courses/splunk-fundamentals-1.html",
+    "skill_ids": [
+      "siem",
+      "siem",
+      "cybersecurity"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 5.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "cryptography-khan-academy",
+    "type": "course",
+    "title": "Journey into Cryptography",
+    "platform": "Khan Academy",
+    "url": "https://www.khanacademy.org/computing/computer-science/cryptography",
+    "skill_ids": [
+      "cryptography",
+      "cybersecurity"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 8.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "tableau-public-resources",
+    "type": "doc",
+    "title": "Tableau How-To Videos and Samples",
+    "platform": "Tableau Public",
+    "url": "https://public.tableau.com/app/resources/learn",
+    "skill_ids": [
+      "tableau",
+      "data_visualization"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 6.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "power-bi-dax-basics",
+    "type": "doc",
+    "title": "DAX Basics in Power BI Desktop",
+    "platform": "Microsoft Learn",
+    "url": "https://learn.microsoft.com/power-bi/transform-model/desktop-quickstart-learn-dax-basics",
+    "skill_ids": [
+      "power_bi",
+      "bi_tools"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 4.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "google-looker-studio-tutorial",
+    "type": "tutorial",
+    "title": "Looker Studio Quick Start Guide",
+    "platform": "Google Cloud Docs",
+    "url": "https://support.google.com/looker-studio/",
+    "skill_ids": [
+      "bi_tools",
+      "data_visualization"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 3.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "google-ux-design-cert",
+    "type": "course",
+    "title": "Google UX Design Professional Certificate",
+    "platform": "Coursera",
+    "url": "https://www.coursera.org/professional-certificates/google-ux-design",
+    "skill_ids": [
+      "ux_design",
+      "ui_design",
+      "wireframing",
+      "user_journey_mapping"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 120.0,
+    "free": false,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "interaction-design-foundation-ux",
+    "type": "doc",
+    "title": "UX Design Guidelines and Literature",
+    "platform": "Interaction Design Foundation",
+    "url": "https://www.interaction-design.org/literature/topics/ux-design",
+    "skill_ids": [
+      "ux_design",
+      "ui_design"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 5.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "swift-org-tour",
+    "type": "doc",
+    "title": "A Swift Tour",
+    "platform": "Swift.org",
+    "url": "https://docs.swift.org/swift-book/documentation/the-swift-programming-language/guidedtour/",
+    "skill_ids": [
+      "swift",
+      "ios",
+      "mobile_dev"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 6.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "ios-app-dev-tutorials",
+    "type": "tutorial",
+    "title": "SwiftUI Tutorials",
+    "platform": "Apple Developer Documentation",
+    "url": "https://developer.apple.com/tutorials/swiftui",
+    "skill_ids": [
+      "swift",
+      "ios",
+      "mobile_dev"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 10.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "csharp-fundamentals-ms-learn",
+    "type": "course",
+    "title": "Foundational C# with Microsoft",
+    "platform": "Microsoft Learn & freeCodeCamp",
+    "url": "https://www.freecodecamp.org/learn/foundational-c-sharp-with-microsoft/",
+    "skill_ids": [
+      "csharp",
+      "dotnet"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 35.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "dotnet-getting-started",
+    "type": "doc",
+    "title": ".NET Tutorial - Hello World in 10 minutes",
+    "platform": "Microsoft .NET",
+    "url": "https://dotnet.microsoft.com/en-us/learn/dotnet/hello-world-tutorial/intro",
+    "skill_ids": [
+      "dotnet",
+      "csharp"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 1.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "jira-software-guides",
+    "type": "tutorial",
+    "title": "Jira Software Guides and Best Practices",
+    "platform": "Atlassian",
+    "url": "https://www.atlassian.com/software/jira/guides",
+    "skill_ids": [
+      "jira",
+      "agile"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 3.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "confluence-guides",
+    "type": "tutorial",
+    "title": "Confluence Tutorials and Templates",
+    "platform": "Atlassian",
+    "url": "https://www.atlassian.com/software/confluence/guides",
+    "skill_ids": [
+      "jira",
+      "agile"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 2.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "postman-api-fundamentals",
+    "type": "course",
+    "title": "Postman API Fundamentals Student Expert",
+    "platform": "Postman",
+    "url": "https://academy.postman.com/path/postman-api-fundamentals-student-expert",
+    "skill_ids": [
+      "api_testing",
+      "rest_api",
+      "api_testing"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 4.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "grpc-introduction",
+    "type": "doc",
+    "title": "Introduction to gRPC",
+    "platform": "gRPC Official Docs",
+    "url": "https://grpc.io/docs/what-is-grpc/introduction/",
+    "skill_ids": [
+      "grpc",
+      "microservices"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 3.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "chroma-getting-started",
+    "type": "doc",
+    "title": "Chroma Vector Database Getting Started",
+    "platform": "Chroma Docs",
+    "url": "https://docs.trychroma.com/guides",
+    "skill_ids": [
+      "chromadb",
+      "vector_databases",
+      "embeddings"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 2.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "weaviate-quickstart",
+    "type": "tutorial",
+    "title": "Weaviate Quickstart Tutorial",
+    "platform": "Weaviate Docs",
+    "url": "https://weaviate.io/developers/weaviate/quickstart",
+    "skill_ids": [
+      "weaviate",
+      "vector_databases"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 2.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "langchain-conceptual-guide",
+    "type": "doc",
+    "title": "LangChain Conceptual Guide",
+    "platform": "LangChain Docs",
+    "url": "https://python.langchain.com/docs/concepts/",
+    "skill_ids": [
+      "langchain",
+      "llm",
+      "rag"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 5.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "llamaindex-getting-started",
+    "type": "doc",
+    "title": "LlamaIndex Starter Tutorial",
+    "platform": "LlamaIndex Docs",
+    "url": "https://docs.llamaindex.ai/en/stable/getting_started/starter_example/",
+    "skill_ids": [
+      "llamaindex",
+      "rag",
+      "llm"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 3.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "dvc-get-started",
+    "type": "tutorial",
+    "title": "Data Version Control (DVC) Get Started",
+    "platform": "DVC Docs",
+    "url": "https://dvc.org/doc/start",
+    "skill_ids": [
+      "mlops",
+      "mlops"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 3.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "wandb-quickstart",
+    "type": "tutorial",
+    "title": "Weights & Biases Quickstart",
+    "platform": "W&B Documentation",
+    "url": "https://docs.wandb.ai/quickstart",
+    "skill_ids": [
+      "mlops",
+      "mlops"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 2.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "locust-quickstart",
+    "type": "doc",
+    "title": "Writing a Locust Load Test",
+    "platform": "Locust Docs",
+    "url": "https://docs.locust.io/en/stable/quickstart.html",
+    "skill_ids": [
+      "performance_testing",
+      "performance_testing",
+      "python"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 3.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "jmeter-getting-started",
+    "type": "doc",
+    "title": "Apache JMeter: Getting Started",
+    "platform": "Apache JMeter Official",
+    "url": "https://jmeter.apache.org/usermanual/get-started.html",
+    "skill_ids": [
+      "performance_testing",
+      "performance_testing",
+      "performance_testing"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 4.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "storybook-react-tutorial",
+    "type": "tutorial",
+    "title": "Storybook for React Tutorial",
+    "platform": "Storybook Learn",
+    "url": "https://storybook.js.org/tutorials/intro-to-storybook/react/en/get-started/",
+    "skill_ids": [
+      "design_systems",
+      "design_systems",
+      "react"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 4.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "prisma-getting-started",
+    "type": "tutorial",
+    "title": "Get Started with Prisma ORM",
+    "platform": "Prisma Docs",
+    "url": "https://www.prisma.io/docs/getting-started",
+    "skill_ids": [
+      "prisma",
+      "typescript",
+      "sql",
+      "postgresql"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 3.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "linux-shell-scripting-bash",
+    "type": "tutorial",
+    "title": "Shell Scripting Tutorial",
+    "platform": "ShellScript.sh",
+    "url": "https://www.shellscript.sh/",
+    "skill_ids": [
+      "bash",
+      "linux"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 5.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "git-flight-rules",
+    "type": "doc",
+    "title": "Flight Rules for Git",
+    "platform": "GitHub Open Source",
+    "url": "https://github.com/k88hudson/git-flight-rules",
+    "skill_ids": [
+      "git"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 3.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "owasp-cheat-sheets",
+    "type": "doc",
+    "title": "OWASP Cheat Sheet Series",
+    "platform": "OWASP Foundation",
+    "url": "https://cheatsheetseries.owasp.org/",
+    "skill_ids": [
+      "owasp",
+      "cybersecurity",
+      "authentication"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 10.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "google-seo-starter-guide",
+    "type": "doc",
+    "title": "Search Engine Optimization (SEO) Starter Guide",
+    "platform": "Google Search Central",
+    "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+    "skill_ids": [
+      "html",
+      "html"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 3.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "datadog-observability-basics",
+    "type": "doc",
+    "title": "Introduction to Observability",
+    "platform": "Datadog Learning Center",
+    "url": "https://learn.datadoghq.com/",
+    "skill_ids": [
+      "datadog",
+      "prometheus",
+      "grafana"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 4.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "terraform-best-practices",
+    "type": "doc",
+    "title": "Terraform Best Practices",
+    "platform": "Anton Babenko",
+    "url": "https://www.terraform-best-practices.com/",
+    "skill_ids": [
+      "terraform",
+      "cloud_computing"
+    ],
+    "difficulty": "advanced",
+    "duration_hours": 4.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "argocd-getting-started",
+    "type": "doc",
+    "title": "Argo CD: Getting Started",
+    "platform": "Argo Project Docs",
+    "url": "https://argo-cd.readthedocs.io/en/stable/getting_started/",
+    "skill_ids": [
+      "argocd",
+      "kubernetes",
+      "cicd"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 3.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "kubernetes-networking-deep-dive",
+    "type": "doc",
+    "title": "Kubernetes Cluster Networking Overview",
+    "platform": "Kubernetes Official Docs",
+    "url": "https://kubernetes.io/docs/concepts/cluster-administration/networking/",
+    "skill_ids": [
+      "kubernetes",
+      "network_security"
+    ],
+    "difficulty": "advanced",
+    "duration_hours": 5.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "aws-security-best-practices",
+    "type": "doc",
+    "title": "Security Best Practices in IAM",
+    "platform": "AWS Docs",
+    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html",
+    "skill_ids": [
+      "aws",
+      "authentication",
+      "cybersecurity"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 3.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "fastapi-security-tutorial",
+    "type": "doc",
+    "title": "Security, Authentication and OAuth2 with Password in FastAPI",
+    "platform": "FastAPI Official Docs",
+    "url": "https://fastapi.tiangolo.com/tutorial/security/",
+    "skill_ids": [
+      "fastapi",
+      "authentication",
+      "jwt",
+      "oauth"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 4.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "sql-murder-mystery",
+    "type": "tutorial",
+    "title": "The SQL Murder Mystery",
+    "platform": "Knight Lab",
+    "url": "https://mystery.knightlab.com/",
+    "skill_ids": [
+      "sql"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 2.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "mit-linear-algebra-strang",
+    "type": "course",
+    "title": "Linear Algebra by Gilbert Strang (18.06)",
+    "platform": "MIT OpenCourseWare",
+    "url": "https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/",
+    "skill_ids": [
+      "statistics",
+      "machine_learning",
+      "deep_learning"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 45.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "mit-calculus-ocw",
+    "type": "course",
+    "title": "Single Variable Calculus (18.01SC)",
+    "platform": "MIT OpenCourseWare",
+    "url": "https://ocw.mit.edu/courses/18-01sc-single-variable-calculus-fall-2010/",
+    "skill_ids": [
+      "statistics",
+      "machine_learning"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 45.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "probability-course-harvard-stat110",
+    "type": "course",
+    "title": "Statistics 110: Probability",
+    "platform": "Harvard Online & edX",
+    "url": "https://projects.iq.harvard.edu/stat110/home",
+    "skill_ids": [
+      "statistics",
+      "statistics",
+      "machine_learning"
+    ],
+    "difficulty": "intermediate",
+    "duration_hours": 50.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  },
+  {
+    "id": "google-foundational-data-analytics",
+    "type": "course",
+    "title": "Foundations: Data, Data, Everywhere",
+    "platform": "Coursera & Google",
+    "url": "https://www.coursera.org/learn/foundations-data",
+    "skill_ids": [
+      "data_analysis",
+      "sql",
+      "excel"
+    ],
+    "difficulty": "beginner",
+    "duration_hours": 20.0,
+    "free": true,
+    "language": "en",
+    "verified_at": "2026-11-13T00:00:00Z"
+  }
+]

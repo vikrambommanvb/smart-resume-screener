@@ -1,0 +1,515 @@
+import { RoleProfile } from "../types/api";
+
+export const STATIC_ROLES: RoleProfile[] = [
+  {
+    "id": "python_developer",
+    "title": "Python Developer",
+    "summary": "Develops robust backend microservices, REST APIs, and asynchronous data workers using modern Python frameworks.",
+    "seniority_default": "Mid",
+    "core_skills": [
+      "python",
+      "fastapi",
+      "sql",
+      "postgresql",
+      "docker",
+      "git",
+      "rest_api"
+    ],
+    "common_skills": [
+      "redis",
+      "celery",
+      "pydantic",
+      "pytest",
+      "sqlalchemy",
+      "aws",
+      "cicd"
+    ],
+    "responsibilities": [
+      "Design and build performant, scalable RESTful APIs and asynchronous background tasks using Python and modern frameworks.",
+      "Architect and optimize relational database models, schemas, and complex SQL queries in PostgreSQL.",
+      "Write comprehensive automated unit, integration, and contract tests to maintain high code reliability.",
+      "Containerize backend services using Docker and manage deployment pipelines with CI/CD tools.",
+      "Collaborate with frontend engineers and product stakeholders to define API contracts and business domain logic.",
+      "Diagnose, debug, and resolve performance bottlenecks, memory leaks, and query execution issues in production.",
+      "Implement secure authentication, authorization, and data encryption adhering to OWASP security guidelines."
+    ],
+    "typical_projects": [
+      "High-throughput REST API with asynchronous job processing via Celery and Redis",
+      "Real-time event streaming service integrating PostgreSQL and Kafka",
+      "Microservices architecture migration with Docker and automated CI/CD"
+    ]
+  },
+  {
+    "id": "data_analyst",
+    "title": "Data Analyst",
+    "summary": "Transforms complex raw datasets into actionable commercial insights, executive dashboards, and statistical models.",
+    "seniority_default": "Mid",
+    "core_skills": [
+      "sql",
+      "data_analysis",
+      "excel",
+      "tableau",
+      "statistics",
+      "data_visualization"
+    ],
+    "common_skills": [
+      "python",
+      "pandas",
+      "power_bi",
+      "bi_tools",
+      "ab_testing",
+      "kpi_tracking",
+      "data_storytelling"
+    ],
+    "responsibilities": [
+      "Extract, clean, and consolidate disparate data sources using advanced SQL queries, joins, and window functions.",
+      "Design, build, and maintain interactive business intelligence dashboards in Tableau or Power BI.",
+      "Perform exploratory data analysis and hypothesis testing to identify customer behavior trends and operational bottlenecks.",
+      "Collaborate closely with product and marketing teams to define, track, and report on core performance KPIs.",
+      "Formulate and evaluate statistical A/B tests to validate product enhancements and conversion experiments.",
+      "Automate repetitive monthly and quarterly data extraction workflows using Python or automated reporting tools.",
+      "Present data findings and strategic recommendations clearly to non-technical executive stakeholders."
+    ],
+    "typical_projects": [
+      "Enterprise customer retention and cohort churn analysis dashboard",
+      "Automated SQL and Python data pipeline for daily business metrics reporting",
+      "Product feature experimentation and statistical A/B test analysis"
+    ]
+  },
+  {
+    "id": "data_scientist",
+    "title": "Data Scientist",
+    "summary": "Builds predictive machine learning models, statistical inference pipelines, and feature stores to solve complex business problems.",
+    "seniority_default": "Mid",
+    "core_skills": [
+      "python",
+      "machine_learning",
+      "statistics",
+      "pandas",
+      "scikit_learn",
+      "sql"
+    ],
+    "common_skills": [
+      "deep_learning",
+      "feature_engineering",
+      "xgboost",
+      "data_visualization",
+      "git",
+      "numpy"
+    ],
+    "responsibilities": [
+      "Develop, train, validate, and evaluate predictive machine learning models using Scikit-Learn and gradient boosting.",
+      "Perform rigorous exploratory data analysis, hypothesis testing, and statistical significance analysis.",
+      "Engineer meaningful features from high-dimensional, unstructured, and temporal datasets.",
+      "Collaborate with data engineers to deploy and monitor machine learning models in production environments.",
+      "Establish model performance monitoring to detect data drift, concept drift, and prediction degradation.",
+      "Translate ambiguous business challenges into well-formulated machine learning hypotheses and quantitative benchmarks.",
+      "Communicate model methodology, trade-offs, and probabilistic predictions clearly to technical and executive teams."
+    ],
+    "typical_projects": [
+      "Customer lifetime value prediction model with automated feature engineering",
+      "Predictive fraud detection system using XGBoost on imbalanced transactions",
+      "Recommendation engine combining collaborative filtering and embeddings"
+    ]
+  },
+  {
+    "id": "full_stack_developer",
+    "title": "Full Stack Developer",
+    "summary": "Architects and delivers end-to-end web applications across client interfaces, backend APIs, and database layers.",
+    "seniority_default": "Mid",
+    "core_skills": [
+      "javascript",
+      "typescript",
+      "react",
+      "nodejs",
+      "sql",
+      "html",
+      "css",
+      "git"
+    ],
+    "common_skills": [
+      "nextjs",
+      "postgresql",
+      "tailwind_css",
+      "docker",
+      "rest_api",
+      "unit_testing",
+      "cicd"
+    ],
+    "responsibilities": [
+      "Design, implement, and maintain responsive web user interfaces using React, TypeScript, and modern CSS.",
+      "Develop scalable backend web services, serverless endpoints, and RESTful APIs using Node.js or modern frameworks.",
+      "Architect relational database schemas, migrations, and query patterns in PostgreSQL or MySQL.",
+      "Implement client-side state management, caching, and optimistic UI updates for high responsiveness.",
+      "Build robust end-to-end user authentication, session security, and role-based permissions.",
+      "Write comprehensive automated unit, integration, and UI tests across frontend and backend boundaries.",
+      "Maintain continuous integration and deployment pipelines to ship reliable releases continuously."
+    ],
+    "typical_projects": [
+      "Multi-tenant SaaS dashboard with React, Node.js, and PostgreSQL",
+      "E-commerce storefront with server-side rendering in Next.js and secure payments",
+      "Collaborative workflow management tool with real-time updates and RBAC"
+    ]
+  },
+  {
+    "id": "frontend_developer",
+    "title": "Frontend Developer",
+    "summary": "Crafts accessible, high-performance, and delightful web user experiences using modern JavaScript and component systems.",
+    "seniority_default": "Mid",
+    "core_skills": [
+      "javascript",
+      "typescript",
+      "react",
+      "html",
+      "css",
+      "responsive_design",
+      "git"
+    ],
+    "common_skills": [
+      "nextjs",
+      "tailwind_css",
+      "accessibility",
+      "framer_motion",
+      "vitest",
+      "tanstack_query"
+    ],
+    "responsibilities": [
+      "Build accessible, modular, and reusable component architectures adhering to WCAG 2.2 AA accessibility standards.",
+      "Optimize frontend loading performance, Core Web Vitals, asset bundling, and runtime rendering.",
+      "Translate UI/UX Figma wireframes into responsive, fluid web applications across desktop and mobile screens.",
+      "Manage client state, asynchronous server data fetching, and optimistic mutations with modern state libraries.",
+      "Write automated component unit tests and integration tests using Vitest and React Testing Library.",
+      "Collaborate with backend engineers to review and integrate REST and GraphQL API contracts.",
+      "Implement accessible animations and transitions that respect user reduced-motion preferences."
+    ],
+    "typical_projects": [
+      "Accessible design system component library with Storybook and automated tests",
+      "High-traffic marketing web application optimized for Core Web Vitals (LCP < 2.0s)",
+      "Data analytics dashboard with real-time interactive charts and SVG graphs"
+    ]
+  },
+  {
+    "id": "backend_developer",
+    "title": "Backend Developer",
+    "summary": "Engineers high-throughput backend services, distributed systems, caching layers, and database architectures.",
+    "seniority_default": "Mid",
+    "core_skills": [
+      "sql",
+      "rest_api",
+      "microservices",
+      "docker",
+      "git",
+      "system_design"
+    ],
+    "common_skills": [
+      "python",
+      "golang",
+      "postgresql",
+      "redis",
+      "cicd",
+      "unit_testing",
+      "concurrency"
+    ],
+    "responsibilities": [
+      "Architect and construct reliable, secure, and low-latency microservices and backend APIs.",
+      "Design database schemas, query indexes, and transaction isolation strategies in relational databases.",
+      "Implement distributed caching and message queue patterns using Redis and event streaming.",
+      "Enforce security best practices, input validation, rate limiting, and defensive API boundaries.",
+      "Profile server performance, memory allocation, and database connection pools under load.",
+      "Write automated test suites ensuring high code coverage and regression prevention.",
+      "Configure container environments and infrastructure automation for zero-downtime deployments."
+    ],
+    "typical_projects": [
+      "Distributed transaction management service with Redis caching and locking",
+      "High-throughput API gateway with rate limiting and JWT authentication",
+      "Database partitioning and migration pipeline for multi-terabyte datasets"
+    ]
+  },
+  {
+    "id": "ml_engineer",
+    "title": "Machine Learning Engineer",
+    "summary": "Bridges research and production by deploying, scaling, and monitoring machine learning and LLM systems in cloud environments.",
+    "seniority_default": "Mid",
+    "core_skills": [
+      "python",
+      "machine_learning",
+      "deep_learning",
+      "pytorch",
+      "mlops",
+      "docker",
+      "git"
+    ],
+    "common_skills": [
+      "llm",
+      "rag",
+      "vector_databases",
+      "fastapi",
+      "mlflow",
+      "kubernetes",
+      "embeddings"
+    ],
+    "responsibilities": [
+      "Containerize and deploy trained machine learning and deep learning models into low-latency inference APIs.",
+      "Architect and optimize Retrieval-Augmented Generation (RAG) pipelines using vector databases and embedding models.",
+      "Design and manage automated MLOps pipelines for model training, evaluation, and artifact versioning.",
+      "Implement continuous monitoring for model prediction latency, drift, and data distribution shifts.",
+      "Optimize model inference throughput using quantization, batching, and GPU acceleration techniques.",
+      "Collaborate with data scientists to transition experimental notebook prototypes into production-grade Python code.",
+      "Integrate model endpoints into existing backend microservices with rigorous automated testing."
+    ],
+    "typical_projects": [
+      "Production RAG system with vector search, chunking, and grounded LLM generation",
+      "Low-latency real-time inference microservice serving PyTorch computer vision models",
+      "End-to-end automated MLOps retraining and evaluation pipeline with MLflow"
+    ]
+  },
+  {
+    "id": "devops_engineer",
+    "title": "DevOps Engineer",
+    "summary": "Automates cloud infrastructure, continuous deployment pipelines, container orchestration, and system reliability.",
+    "seniority_default": "Mid",
+    "core_skills": [
+      "docker",
+      "kubernetes",
+      "linux",
+      "bash",
+      "cicd",
+      "git",
+      "cloud_computing"
+    ],
+    "common_skills": [
+      "terraform",
+      "aws",
+      "prometheus",
+      "grafana",
+      "helm",
+      "github_actions",
+      "ansible"
+    ],
+    "responsibilities": [
+      "Provision and manage reproducible cloud infrastructure using Terraform and Infrastructure as Code.",
+      "Architect, configure, and maintain multi-node Kubernetes clusters and container orchestration workflows.",
+      "Build automated CI/CD deployment pipelines using GitHub Actions, GitLab CI, or Jenkins.",
+      "Deploy observability and alerting stacks using Prometheus, Grafana, and structured centralized logging.",
+      "Enforce security best practices across cloud networks, VPCs, IAM policies, and secret management.",
+      "Participate in incident response, blameless post-mortems, and capacity planning exercises.",
+      "Automate routine system operations, backups, failover protocols, and security patching via scripts."
+    ],
+    "typical_projects": [
+      "Multi-region Kubernetes deployment with automated blue-green releases and Helm",
+      "Zero-trust cloud infrastructure automated with Terraform and AWS IAM",
+      "Full observability pipeline with Prometheus metrics, Grafana alerts, and log routing"
+    ]
+  },
+  {
+    "id": "cloud_engineer",
+    "title": "Cloud Engineer",
+    "summary": "Designs, secures, and maintains scalable cloud architectures, serverless workloads, and enterprise network infrastructure.",
+    "seniority_default": "Mid",
+    "core_skills": [
+      "cloud_computing",
+      "aws",
+      "terraform",
+      "linux",
+      "git",
+      "docker"
+    ],
+    "common_skills": [
+      "gcp",
+      "azure",
+      "serverless",
+      "aws_lambda",
+      "vpc",
+      "iam",
+      "load_balancing"
+    ],
+    "responsibilities": [
+      "Architect highly available, fault-tolerant cloud solutions across computing, storage, and networking services.",
+      "Implement granular Identity and Access Management (IAM) controls and least-privilege security policies.",
+      "Automate infrastructure provisioning using Infrastructure as Code (Terraform, CloudFormation).",
+      "Design and implement hybrid cloud connectivity, VPC peering, and secure subnets.",
+      "Optimize cloud infrastructure cost, resource utilization, and auto-scaling policies.",
+      "Migrate legacy on-premise applications and databases to managed cloud services.",
+      "Establish disaster recovery protocols, automated snapshot strategies, and cross-region replication."
+    ],
+    "typical_projects": [
+      "Serverless event-processing architecture utilizing AWS Lambda, SQS, and DynamoDB",
+      "Enterprise VPC network with private subnets, transit gateways, and strict firewall rules",
+      "Automated multi-account cloud governance and cost optimization framework"
+    ]
+  },
+  {
+    "id": "qa_sdet",
+    "title": "QA / SDET",
+    "summary": "Builds robust automated testing frameworks, end-to-end test suites, and quality engineering processes.",
+    "seniority_default": "Mid",
+    "core_skills": [
+      "test_automation",
+      "qa",
+      "unit_testing",
+      "e2e_testing",
+      "git",
+      "cicd"
+    ],
+    "common_skills": [
+      "playwright",
+      "cypress",
+      "selenium",
+      "pytest",
+      "api_testing",
+      "performance_testing"
+    ],
+    "responsibilities": [
+      "Design, implement, and maintain scalable end-to-end test automation frameworks using Playwright or Cypress.",
+      "Develop automated API testing suites validating payloads, schemas, edge cases, and response times.",
+      "Integrate automated test runs into CI/CD pipelines to enforce quality gates on pull requests.",
+      "Execute exploratory, regression, and performance testing for major software releases.",
+      "Identify, document, isolate, and track defects with clear reproducible steps and diagnostic logs.",
+      "Collaborate with developers to improve unit testability, code coverage, and test fixture isolation.",
+      "Conduct load and stress testing using tools like k6 to benchmark system limits under traffic spikes."
+    ],
+    "typical_projects": [
+      "Cross-browser Playwright test automation suite integrated into GitHub Actions CI",
+      "Comprehensive REST API regression test framework with automated reporting",
+      "Performance and load testing benchmark suite simulating 10,000 concurrent users"
+    ]
+  },
+  {
+    "id": "cybersecurity_analyst",
+    "title": "Cybersecurity Analyst",
+    "summary": "Protects organizational assets by monitoring security events, performing vulnerability assessments, and responding to threats.",
+    "seniority_default": "Mid",
+    "core_skills": [
+      "cybersecurity",
+      "network_security",
+      "vulnerability_assessment",
+      "owasp",
+      "siem"
+    ],
+    "common_skills": [
+      "penetration_testing",
+      "soc",
+      "wireshark",
+      "cryptography",
+      "authentication",
+      "threat_modeling"
+    ],
+    "responsibilities": [
+      "Monitor security alerts, system anomalies, and network traffic using SIEM and intrusion detection systems.",
+      "Conduct routine vulnerability assessments and penetration tests to discover security exposures.",
+      "Investigate and triage security incidents, formulate containment strategies, and produce incident reports.",
+      "Audit application architectures against the OWASP Top 10 vulnerabilities and modern attack vectors.",
+      "Enforce security baseline configurations across endpoints, servers, and cloud infrastructure.",
+      "Perform threat modeling sessions with development teams to embed security throughout the SDLC.",
+      "Educate staff on cybersecurity awareness, phishing prevention, and secure credential hygiene."
+    ],
+    "typical_projects": [
+      "Enterprise SIEM integration with custom detection rules and automated alerting",
+      "Comprehensive web application vulnerability assessment based on OWASP Top 10",
+      "Incident response tabletop simulation and security playbook documentation"
+    ]
+  },
+  {
+    "id": "business_analyst",
+    "title": "Business Analyst",
+    "summary": "Bridges business goals and technical execution through rigorous requirements gathering, process mapping, and data analysis.",
+    "seniority_default": "Mid",
+    "core_skills": [
+      "data_analysis",
+      "sql",
+      "excel",
+      "agile",
+      "kpi_tracking"
+    ],
+    "common_skills": [
+      "tableau",
+      "power_bi",
+      "bi_tools",
+      "user_journey_mapping",
+      "jira",
+      "data_storytelling"
+    ],
+    "responsibilities": [
+      "Elicit, analyze, document, and validate detailed functional and technical requirements from business stakeholders.",
+      "Translate high-level strategic objectives into clear user stories, acceptance criteria, and workflow diagrams.",
+      "Analyze business processes to identify operational inefficiencies and propose data-backed improvements.",
+      "Query relational databases using SQL to validate assumptions, assess impact, and analyze baseline metrics.",
+      "Partner with product managers and engineering leads to prioritize backlog items in Agile sprint planning.",
+      "Design dashboards and reports tracking project deliverables, adoption metrics, and ROI indicators.",
+      "Facilitate user acceptance testing (UAT) sessions to ensure delivered software satisfies business needs."
+    ],
+    "typical_projects": [
+      "Business process re-engineering and automation analysis for customer onboarding",
+      "Data-driven product feasibility study evaluating core user engagement workflows",
+      "Enterprise requirements document and user story backlog for CRM modernization"
+    ]
+  },
+  {
+    "id": "android_developer",
+    "title": "Android Developer",
+    "summary": "Creates smooth, responsive native Android mobile applications with modern Kotlin and Jetpack Compose.",
+    "seniority_default": "Mid",
+    "core_skills": [
+      "kotlin",
+      "android",
+      "mobile_dev",
+      "git",
+      "rest_api"
+    ],
+    "common_skills": [
+      "java",
+      "unit_testing",
+      "cicd",
+      "clean_code",
+      "sqlite"
+    ],
+    "responsibilities": [
+      "Design and build performant native Android applications using modern Kotlin and Jetpack Compose.",
+      "Architect scalable mobile apps utilizing MVVM/MVI design patterns and Android Jetpack libraries.",
+      "Integrate RESTful APIs, background synchronization services, and offline caching with SQLite or Room.",
+      "Profile mobile memory consumption, UI thread rendering, battery impact, and network bandwidth.",
+      "Write comprehensive automated unit tests and UI instrumentation tests for mobile features.",
+      "Ensure adherence to Material Design principles, accessibility guidelines, and Android platform standards.",
+      "Manage release builds, code signing, and deployment workflows for the Google Play Store."
+    ],
+    "typical_projects": [
+      "Native Kotlin Android mobile app featuring offline sync and Jetpack Compose UI",
+      "High-performance mobile audio/media playback app optimized for background execution",
+      "Mobile commerce app with biometric authentication and real-time push notifications"
+    ]
+  },
+  {
+    "id": "ui_ux_designer",
+    "title": "UI/UX Designer",
+    "summary": "Researches, concepts, and designs human-centered, accessible user interfaces and scalable design systems.",
+    "seniority_default": "Mid",
+    "core_skills": [
+      "figma",
+      "ui_design",
+      "ux_design",
+      "wireframing",
+      "design_systems"
+    ],
+    "common_skills": [
+      "responsive_design",
+      "accessibility",
+      "user_journey_mapping",
+      "usability_testing",
+      "interaction_design"
+    ],
+    "responsibilities": [
+      "Lead end-to-end product design from user research and journey mapping to high-fidelity UI specifications.",
+      "Construct and maintain comprehensive, accessible Figma design systems and component libraries.",
+      "Conduct qualitative user interviews, usability testing sessions, and competitive UX benchmarking.",
+      "Create interactive prototypes to test workflows and communicate interaction nuances with engineering.",
+      "Design responsive layouts conforming to WCAG 2.2 AA accessibility guidelines and dark mode tokens.",
+      "Partner closely with frontend engineers during implementation to ensure design fidelity and polish.",
+      "Analyze user behavioral telemetry and feedback to iterate continuously on core product interactions."
+    ],
+    "typical_projects": [
+      "Complete multi-brand design system with accessible components, tokens, and documentation",
+      "Complex SaaS web application redesign simplifying user onboarding and data workflows",
+      "Mobile-first responsive e-commerce experience designed from user journey to checkout"
+    ]
+  }
+];
