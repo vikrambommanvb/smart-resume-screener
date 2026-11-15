@@ -1,0 +1,47 @@
+services:
+  # ----------------------------------------------------------------------------
+  # Backend API: Dockerized FastAPI (Zero-retention, ephemeral in-memory)
+  # ----------------------------------------------------------------------------
+  - type: web
+    name: smart-resume-screener-api
+    runtime: docker
+    rootDir: apps/api
+    dockerfilePath: ./Dockerfile
+    plan: free
+    region: singapore
+    healthCheckPath: /healthz
+    envVars:
+      - key: ENVIRONMENT
+        value: production
+      - key: ALLOWED_ORIGINS
+        value: '["*"]'
+      - key: MAX_GLOBAL_CONCURRENT_ANALYSES
+        value: "1"
+      - key: RATE_LIMIT_PER_10MIN
+        value: "10"
+      - key: GEMINI_API_KEY
+        sync: false
+
+  # ----------------------------------------------------------------------------
+  # Frontend SPA: React 19 / Vite Static Site
+  # ----------------------------------------------------------------------------
+  - type: web
+    name: smart-resume-screener-web
+    runtime: static
+    rootDir: apps/web
+    buildCommand: npm install && npm run build
+    staticPublishPath: dist
+    headers:
+      - path: /*
+        name: X-Frame-Options
+        value: DENY
+      - path: /*
+        name: X-Content-Type-Options
+        value: nosniff
+      - path: /*
+        name: Referrer-Policy
+        value: strict-origin-when-cross-origin
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
