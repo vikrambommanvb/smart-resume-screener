@@ -1,14 +1,11 @@
 import hashlib
+import os
 import re
 from typing import Any
 
 import numpy as np
 
-try:
-    from sentence_transformers import SentenceTransformer
-    _HAS_SENTENCE_TRANSFORMERS = True
-except ImportError:
-    _HAS_SENTENCE_TRANSFORMERS = False
+from app.core.config import settings
 
 
 class EmbeddingsService:
@@ -22,8 +19,15 @@ class EmbeddingsService:
         return hashlib.sha256(text.strip().lower().encode("utf-8")).hexdigest()
 
     def _get_model(self) -> Any | None:
-        if self._model is None and _HAS_SENTENCE_TRANSFORMERS:
+        # If lightweight embeddings are requested, use deterministic hash projection (30MB vs 500MB RAM)
+        if settings.USE_LIGHTWEIGHT_EMBEDDINGS or os.environ.get("USE_LIGHTWEIGHT_EMBEDDINGS", "").lower() in ("true", "1", "yes"):
+            return None
+
+        if self._model is None:
             try:
+                import torch
+                torch.set_num_threads(1)
+                from sentence_transformers import SentenceTransformer
                 self._model = SentenceTransformer(self.model_name)
             except Exception:
                 self._model = None

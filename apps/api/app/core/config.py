@@ -33,6 +33,8 @@ class Settings(BaseSettings):
     TURNSTILE_ENABLED: bool = False
     TURNSTILE_SECRET: str = ""
 
+    USE_LIGHTWEIGHT_EMBEDDINGS: bool = True
+
     @field_validator("ALLOWED_ORIGINS", "GEMINI_MODEL_FALLBACKS", mode="before")
     @classmethod
     def parse_json_list(cls, v: Any) -> Any:

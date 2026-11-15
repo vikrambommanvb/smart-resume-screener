@@ -10,9 +10,7 @@ WORKDIR /build
 
 ENV PYTHONUNBUFFERED=1 \
     PYTHONDONTWRITEBYTECODE=1 \
-    PIP_NO_CACHE_DIR=1 \
-    SENTENCE_TRANSFORMERS_HOME=/build/models \
-    HF_HOME=/build/models
+    PIP_NO_CACHE_DIR=1
 
 # Install system build dependencies
 RUN apt-get update && apt-get install -y --no-install-recommends \
@@ -33,16 +31,6 @@ ENV PATH="/opt/venv/bin:$PATH"
 RUN uv pip compile pyproject.toml -o requirements.txt && \
     uv pip install --no-cache -r requirements.txt
 
-# Pre-download spaCy English model into the virtual environment
-RUN /opt/venv/bin/python -m spacy download en_core_web_sm
-
-# Pre-bake sentence-transformers all-MiniLM-L6-v2 weights offline
-RUN mkdir -p /build/models && \
-    /opt/venv/bin/python -c "\
-from sentence_transformers import SentenceTransformer;\
-SentenceTransformer('all-MiniLM-L6-v2', cache_folder='/build/models');\
-print('Successfully pre-baked all-MiniLM-L6-v2 model weights.')"
-
 # ==============================================================================
 # Stage 2: Minimal Distroless / Hardened Production Runtime
 # ==============================================================================
@@ -54,17 +42,19 @@ ENV PYTHONUNBUFFERED=1 \
     PYTHONDONTWRITEBYTECODE=1 \
     PORT=8000 \
     ENVIRONMENT=production \
-    SENTENCE_TRANSFORMERS_HOME=/app/models \
-    HF_HOME=/app/models \
+    USE_LIGHTWEIGHT_EMBEDDINGS=1 \
+    OMP_NUM_THREADS=1 \
+    MKL_NUM_THREADS=1 \
+    OPENBLAS_NUM_THREADS=1 \
+    TORCH_NUM_THREADS=1 \
     PATH="/opt/venv/bin:$PATH"
 
 # Create non-root system group and user
 RUN groupadd -g 10001 appgroup && \
     useradd -u 10001 -g appgroup -s /bin/bash -m appuser
 
-# Copy virtual environment and offline model weights from builder
+# Copy virtual environment from builder
 COPY --from=builder --chown=appuser:appgroup /opt/venv /opt/venv
-COPY --from=builder --chown=appuser:appgroup /build/models /app/models
 
 # Copy application source code
 COPY --chown=appuser:appgroup app /app/app
