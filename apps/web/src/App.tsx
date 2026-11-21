@@ -3,6 +3,7 @@ import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
 import { MotionConfig } from "motion/react";
 import { AnalysisDashboard } from "./features/analysis/AnalysisDashboard";
 import { mockCompletedAnalysisState } from "./features/analysis/mockData";
+import { prewarmBackend } from "./lib/api-client";
 
 const PrivacyPage = React.lazy(() =>
   import("./pages/PrivacyPage").then((m) => ({ default: m.PrivacyPage }))
@@ -74,6 +75,10 @@ const MainLayout: React.FC<MainLayoutProps> = ({ defaultState = "idle" }) => {
 };
 
 export const App: React.FC = () => {
+  React.useEffect(() => {
+    prewarmBackend();
+  }, []);
+
   return (
     <MotionConfig reducedMotion="user">
       <BrowserRouter>

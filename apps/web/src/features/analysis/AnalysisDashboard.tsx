@@ -127,6 +127,7 @@ export const AnalysisDashboard: React.FC<AnalysisDashboardProps> = ({
   const [selectedRoleId, setSelectedRoleId] = React.useState<string>("python_developer");
   const [customJd, setCustomJd] = React.useState<string>("");
   const [activeSection, setActiveSection] = React.useState<string>("match-estimate");
+  const [waitingSeconds, setWaitingSeconds] = React.useState<number>(0);
   const abortControllerRef = React.useRef<AbortController | null>(null);
   const resultsHeadingRef = React.useRef<HTMLHeadingElement | null>(null);
 
@@ -212,6 +213,21 @@ export const AnalysisDashboard: React.FC<AnalysisDashboardProps> = ({
   const hasResults = Boolean(state.match || state.health || state.skills);
 
   React.useEffect(() => {
+    let timer: ReturnType<typeof setInterval> | null = null;
+    if (isStreaming) {
+      setWaitingSeconds(0);
+      timer = setInterval(() => {
+        setWaitingSeconds((prev) => prev + 1);
+      }, 1000);
+    } else {
+      setWaitingSeconds(0);
+    }
+    return () => {
+      if (timer) clearInterval(timer);
+    };
+  }, [isStreaming]);
+
+  React.useEffect(() => {
     if (!hasResults || typeof window === "undefined" || !("IntersectionObserver" in window)) return;
     const observer = new IntersectionObserver(
       (entries) => {
@@ -241,6 +257,7 @@ export const AnalysisDashboard: React.FC<AnalysisDashboardProps> = ({
     if (state.stages.match?.status === "running") return "Matching against required skills";
     if (state.stages.understand?.status === "running") return "Parsing sections and extracting skills";
     if (state.stages.read?.status === "running") return "Reading your resume";
+    if (waitingSeconds >= 3) return "Connecting to analysis engine...";
     return "Reading your resume";
   };
 
@@ -532,9 +549,17 @@ export const AnalysisDashboard: React.FC<AnalysisDashboardProps> = ({
               {getProcessingMessage()}
             </h2>
             <div className="flex items-center justify-center gap-3 text-xs sm:text-sm text-ink-2">
-              <span>In-memory streaming pipeline active</span>
-              <span className="h-3 w-px bg-rule" aria-hidden="true" />
-              <span>Zero disk footprint</span>
+              {waitingSeconds >= 3 && state.stages.read?.status === "queued" ? (
+                <span className="text-violet font-medium animate-pulse">
+                  Waking up analysis service (takes ~25s if asleep)...
+                </span>
+              ) : (
+                <>
+                  <span>In-memory streaming pipeline active</span>
+                  <span className="h-3 w-px bg-rule" aria-hidden="true" />
+                  <span>Zero disk footprint</span>
+                </>
+              )}
             </div>
           </div>
 

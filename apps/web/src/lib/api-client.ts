@@ -9,17 +9,25 @@ import {
   StageEventSchema,
 } from "../types/api";
 
-interface ImportMetaWithEnv {
-  env?: {
-    VITE_API_BASE_URL?: string;
-  };
-}
+const isLocalhost =
+  typeof window !== "undefined" &&
+  (window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1");
 
-const API_BASE_URL =
-  (typeof import.meta !== "undefined" && (import.meta as unknown as ImportMetaWithEnv).env?.VITE_API_BASE_URL) ||
-  (typeof window !== "undefined" && (window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1")
-    ? ""
-    : "http://127.0.0.1:8000");
+export const API_BASE_URL =
+  import.meta.env.VITE_API_BASE_URL ||
+  (isLocalhost ? "http://127.0.0.1:8000" : "https://smart-resume-screener-api-x6c5.onrender.com");
+
+export async function prewarmBackend(): Promise<void> {
+  try {
+    await fetch(`${API_BASE_URL}/healthz`, {
+      method: "GET",
+      headers: { Accept: "application/json" },
+      mode: "cors",
+    });
+  } catch {
+    // Non-blocking pre-warm ping
+  }
+}
 
 export async function fetchPredefinedRoles(): Promise<RoleProfile[]> {
   const res = await fetch(`${API_BASE_URL}/api/v1/roles`, {
@@ -66,14 +74,33 @@ export async function streamAnalyzeResume(options: AnalyzeRequestOptions): Promi
     formData.append("sections", options.sections.join(","));
   }
 
-  const response = await fetch(`${API_BASE_URL}/api/v1/analyze`, {
-    method: "POST",
-    headers: {
-      Accept: "text/event-stream",
-    },
-    body: formData,
-    signal: options.signal,
-  });
+  let response: Response | null = null;
+  let lastError: unknown = null;
+
+  for (let attempt = 1; attempt <= 3; attempt++) {
+    try {
+      response = await fetch(`${API_BASE_URL}/api/v1/analyze`, {
+        method: "POST",
+        headers: {
+          Accept: "text/event-stream",
+        },
+        body: formData,
+        signal: options.signal,
+      });
+      break;
+    } catch (fetchErr) {
+      lastError = fetchErr;
+      if (options.signal?.aborted) throw fetchErr;
+      if (attempt < 3) {
+        // Render cold start might take up to 30s; wait 3s before retry
+        await new Promise((resolve) => setTimeout(resolve, 3000));
+      }
+    }
+  }
+
+  if (!response) {
+    throw lastError || new Error("Unable to connect to analysis service.");
+  }
 
   if (!response.ok) {
     let errMsg = `Server returned HTTP ${response.status}`;
