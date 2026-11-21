@@ -549,7 +549,7 @@ export const AnalysisDashboard: React.FC<AnalysisDashboardProps> = ({
               {getProcessingMessage()}
             </h2>
             <div className="flex items-center justify-center gap-3 text-xs sm:text-sm text-ink-2">
-              {waitingSeconds >= 3 && state.stages.read?.status === "queued" ? (
+              {waitingSeconds >= 3 && state.stages.read?.status !== "running" && state.stages.read?.status !== "done" ? (
                 <span className="text-violet font-medium animate-pulse">
                   Waking up analysis service (takes ~25s if asleep)...
                 </span>
